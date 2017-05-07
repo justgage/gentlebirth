@@ -16,8 +16,8 @@ description: 'Write an awesome description for your new site here. You can edit 
   results) and in your feed.xml site description.
 
 '
-baseurl: "/tachyons-jekyll-clean-blog"
-url: http://www.blairanderson.co
+baseurl: "/"
+url: http://gentlebirthandwomenshealth.siteleaf.net
 permalink: pretty
 facebook_username: example
 twitter_username: blairanderson
