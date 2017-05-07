@@ -1,9 +1,10 @@
 ---
+title: Welcome to Tachyons
+date: 2017-01-01 20:17:26 Z
 layout: post
-title:  "Welcome to Tachyons"
-excerpt: "Create fast loading, highly readable, and 100% responsive interfaces with as little css as possible."
+excerpt: Create fast loading, highly readable, and 100% responsive interfaces with
+  as little css as possible.
 author: tachyons
-date:   2017-01-01 12:17:26 -0800
 image: assets/images/15/15-5.jpg
 ---
 

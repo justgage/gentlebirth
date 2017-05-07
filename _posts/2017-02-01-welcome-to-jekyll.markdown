@@ -1,9 +1,9 @@
 ---
+title: Welcome to Jekyll!
+date: 2017-02-01 16:17:26 Z
 layout: post
-title:  "Welcome to Jekyll!"
-excerpt: "Simple, blog aware, static site generator."
+excerpt: Simple, blog aware, static site generator.
 author: jekyll
-date:   2017-02-01 08:17:26 -0800
 image: assets/images/15/15-1.jpg
 ---
 

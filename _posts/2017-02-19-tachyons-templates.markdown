@@ -1,9 +1,10 @@
 ---
+title: Tachyons Templates
+date: 2017-02-19 20:17:26 Z
 layout: post
-title:  "Tachyons Templates"
-excerpt: "Download free, fast loading, highly readable, and 100% responsive website themes."
+excerpt: Download free, fast loading, highly readable, and 100% responsive website
+  themes.
 author: tachyonstemplates
-date:   2017-02-19 12:17:26 -0800
 image: assets/images/15/15-2.jpg
 ---
 
