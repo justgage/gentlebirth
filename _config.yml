@@ -1,6 +1,6 @@
 ---
 title: Gentle Girth and Womens Health
-timezone: UTC
+timezone: MST
 collections:
   posts:
     title: Posts
@@ -8,34 +8,24 @@ collections:
   uploads:
     title: Uploads
     output: true
-headline: Tachyons Jekyll Blog Template
-subheadline: Minimal style, Tachyons is the right way to do CSS
+headline: The Miracle of Birth from the Comfort of Home
+subheadline: also offering womens heath care.
 email: your-email@domain.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
-
 '
-baseurl: 
+baseurl: ''
 url: http://gentlebirthandwomenshealth.siteleaf.net
 permalink: pretty
 facebook_username: example
-twitter_username: blairanderson
-github_username: blairanderson
-dribbble_username: example
 authors:
-  jekyll:
-    name: Jekyll
-    web: http://jekyll.com/
-  tachyons:
-    name: Tachyons CSS Framework
-    web: http://tachyons.io/
-  tachyonstemplates:
-    name: Tachyons Templates
-    web: http://tachyonstemplates.com/
+  karla:
+    name: Karla Jo Bennett - Certified Nurse Midwife
 markdown: kramdown
 gems:
 - jekyll-feed
+include: ['_pages']
 exclude:
 - readme.md
 - Gemfile

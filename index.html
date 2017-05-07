@@ -3,21 +3,23 @@ layout: home
 ---
 
 <section class="measure-wide center">
-  <span class="fr">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></span>
-  <h2 class="athelas f2">News</h2>
+  <!-- <span class="fr">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></span> -->
+  <h2 class="f2">Birth Stories</h2>
   {% for post in site.posts %}
     <article class="pv4 bt bb b--black-10 ph3 ph0-l">
       <div class="flex flex-column flex-row-ns">
         <div class="w-100 pr3-ns">
-          <a class="link sans-serif" href="{{ post.url | relative_url }}">
-            <h1 class="f2 mt0 lh-title black hover-blue">{{ post.title | escape }}</h1>
-            <p class="f5 f4-l lh-copy black hover-blue">{{post.excerpt}}</p>
+          <a class="link serif black hover-bg-gray-60" href="{{ post.url | relative_url }}">
+            <h1 class="f2 mt0 lh-title black">{{ post.title | escape }}</h1>
+            <div class="f5 f4-l lh-copy black">
+              {{post.excerpt}}
+            </div>
           </a>
         </div>
       </div>
       <!-- Look the author details up from the site config. -->
       {% assign author = site.authors[post.author] %}
-      <p class="f6 lh-copy gray mv0 athelas">
+      <p class="f6 lh-copy gray mv0">
         Posted By
         {% if author %}
           <a class="link black hover-blue" href="{{ author.web }}" target="_blank">{{ author.name }}</a>

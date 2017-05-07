@@ -1,8 +1,8 @@
-<header class="sans-serif">
+<header class="serif">
   {% if page.image %}
     <div class="cover bg-left bg-center-l" style="background-image: url({{ page.image  | relative_url }})">
   {% else %}
-    <div class="cover bg-left bg-center-l" style="background-image: url({{ 'assets/images/15/15-0.jpg'  | relative_url }})">
+    <div class="cover bg-left bg-center-l" style="background-image: url({{ 'assets/images/mother-with-baby.jpg' | relative_url }})">
   {% endif %}
     <div class="bg-black-50 pb5 pb6-m pb7-l">
       <nav class="dt w-100 mw8 center">
@@ -12,10 +12,11 @@
         <div class="dtc v-mid tr pa3">
           {% for my_page in site.pages %}
             {% if my_page.title %}
-            <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+            <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3"
+              href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}
           {% endfor %}
-          <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="/" >Sign Up</a>
+          <a class="f6 fw4 hover-white no-underline white-70 dib ml2 pv2 ph3 ba" href="/" >Make an Appointment</a>
         </div>
       </nav>
       <div class="tc-l mt4 mt5-m mt6-l ph3">
@@ -33,9 +34,9 @@
             {{site.subheadline}}
           {% endif %}
         </h2>
-        <a class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" href="/">Call to Action</a>
+        <a class="f5 no-underline grow dib v-mid bg-green white ba b--green ph3 pv2 mb3" href="/">Make an Appointment</a>
         <span class="dib v-mid ph3 white-70 mb3">or</span>
-        <a class="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="">Secondary call to action</a>
+        <a class="f5 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" href="">Learn about Natural Birth</a>
       </div>
     </div>
   </div>
