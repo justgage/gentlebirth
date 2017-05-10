@@ -1,12 +1,4 @@
-<footer class="pv4 ph3 ph5-ns tc">
-  {% if site.facebook_username %}
-  <a class="link dim gray dib h2 w2 br-100 mr3 " href="https://facebook.com/{{site.facebook_username}}" title="facebook username">
-    <svg data-icon="facebook" viewBox="0 0 32 32" style="fill:currentcolor">
-      <title>facebook icon</title>
-      <path d="M8 12 L13 12 L13 8 C13 2 17 1 24 2 L24 7 C20 7 19 7 19 10 L19 12 L24 12 L23 18 L19 18 L19 30 L13 30 L13 18 L8 18 z"></path>
-    </svg>
-  </a>
-  {% endif %}
+<footer class="pv4 ph3 ph5-ns tc serif bg-light-gray">
   {% if site.twitter_username %}
     <a class="link dim gray dib h2 w2 br-100 mr3 " href="https://twitter.com/{{site.twitter_username}}" title="twitter username">
       <svg data-icon="twitter" viewBox="0 0 32 32" style="fill:currentcolor">
@@ -31,22 +23,26 @@
       </svg>
     </a>
   {% endif %}
-  <div class="mt2">
-    <small>{% if site.author %}
-      {{ site.author | escape }}
-    {% else %}
-      {{ site.title | escape }}
-    {% endif %}</small>
-    <small class="f6 db tc">{{ site.description | truncate(30) | escape }}</small>
+  <div class="tl mt2 measure mw5 center">
+    <p>
+      {% if site.author %}
+        {{ site.author | escape }}
+      {% else %}
+        {{ site.title | escape }}
+      {% endif %}
+    </p>
+    <p class="tl lh-copy db">{{ site.description | escape }}</p>
   </div>
-  <div class="mt4">
+  <div class="mt4 f6">
 
     {% if site.email %}
-      <a class="f6 link dim gray dib mr3 mr4-ns" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a class="link dim gray dib mr3 mr4-ns" href="mailto:{{ site.email }}">{{ site.email }}</a>
     {% endif %}
-    <a href="#" class="f6 link dim gray dib mr3 mr4-ns">Help</a>
-    <a href="#" class="f6 link dim gray dib mr3 mr4-ns">Send feedback</a>
-    <a href="#" class="f6 link dim gray dib mr3 mr4-ns">Privacy</a>
-    <a href="#" class="f6 link dim gray dib">Terms</a>
+    <a href="#" class="link dim gray dib mr3 mr4-ns">Send feedback</a>
+    {% if site.facebook_username %}
+      <a class="link dim gray dib mr3 mr4-ns" href="https://facebook.com/{{site.facebook_username}}" title="facebook username">
+        facebook page
+      </a>
+    {% endif %}
   </div>
 </footer>

@@ -1067,10 +1067,10 @@ img {
   border-color: #000; }
 
 .b--near-black {
-  border-color: #111; }
+  border-color: #5C5959; }
 
 .b--dark-gray {
-  border-color: #333; }
+  border-color: #A98479; }
 
 .b--mid-gray {
   border-color: #555; }
@@ -1235,7 +1235,7 @@ img {
   border-color: #e8fdf5; }
 
 .b--washed-yellow {
-  border-color: #fffceb; }
+  border-color: #e9ddd6; }
 
 .b--washed-red {
   border-color: #ffdfdf; }
@@ -4311,10 +4311,10 @@ code, .code {
   color: #000; }
 
 .near-black {
-  color: #111; }
+  color: #5C5959; }
 
 .dark-gray {
-  color: #333; }
+  color: #A98479; }
 
 .mid-gray {
   color: #555; }
@@ -4410,7 +4410,7 @@ code, .code {
   color: #e8fdf5; }
 
 .washed-yellow {
-  color: #fffceb; }
+  color: #e9ddd6; }
 
 .washed-red {
   color: #ffdfdf; }
@@ -4477,10 +4477,10 @@ code, .code {
   background-color: #000; }
 
 .bg-near-black {
-  background-color: #111; }
+  background-color: #5C5959; }
 
 .bg-dark-gray {
-  background-color: #333; }
+  background-color: #A98479; }
 
 .bg-mid-gray {
   background-color: #555; }
@@ -4579,7 +4579,7 @@ code, .code {
   background-color: #e8fdf5; }
 
 .bg-washed-yellow {
-  background-color: #fffceb; }
+  background-color: #e9ddd6; }
 
 .bg-washed-red {
   background-color: #ffdfdf; }
@@ -4598,11 +4598,11 @@ code, .code {
 
 .hover-near-black:hover,
 .hover-near-black:focus {
-  color: #111; }
+  color: #5C5959; }
 
 .hover-dark-gray:hover,
 .hover-dark-gray:focus {
-  color: #333; }
+  color: #A98479; }
 
 .hover-mid-gray:hover,
 .hover-mid-gray:focus {
@@ -4714,11 +4714,11 @@ code, .code {
 
 .hover-bg-near-black:hover,
 .hover-bg-near-black:focus {
-  background-color: #111; }
+  background-color: #5C5959; }
 
 .hover-bg-dark-gray:hover,
 .hover-bg-dark-gray:focus {
-  background-color: #333; }
+  background-color: #A98479; }
 
 .hover-bg-dark-gray:focus,
 .hover-bg-mid-gray:hover {
@@ -4922,7 +4922,7 @@ code, .code {
 
 .hover-washed-yellow:hover,
 .hover-washed-yellow:focus {
-  color: #fffceb; }
+  color: #e9ddd6; }
 
 .hover-washed-red:hover,
 .hover-washed-red:focus {
@@ -5022,7 +5022,7 @@ code, .code {
 
 .hover-bg-washed-yellow:hover,
 .hover-bg-washed-yellow:focus {
-  background-color: #fffceb; }
+  background-color: #e9ddd6; }
 
 .hover-bg-washed-red:hover,
 .hover-bg-washed-red:focus {
