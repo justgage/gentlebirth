@@ -374,9 +374,9 @@ img { max-width: 100%; }
 */
 .b--black { border-color: #000; }
 
-.b--near-black { border-color: #111; }
+.b--near-black { border-color: #5C5959; }
 
-.b--dark-gray { border-color: #333; }
+.b--dark-gray { border-color: #A98479; }
 
 .b--mid-gray { border-color: #555; }
 
@@ -486,7 +486,7 @@ img { max-width: 100%; }
 
 .b--washed-green { border-color: #e8fdf5; }
 
-.b--washed-yellow { border-color: #fffceb; }
+.b--washed-yellow { border-color: #e9ddd6; }
 
 .b--washed-red { border-color: #ffdfdf; }
 
@@ -1781,9 +1781,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .black { color: #000; }
 
-.near-black { color: #111; }
+.near-black { color: #5C5959; }
 
-.dark-gray { color: #333; }
+.dark-gray { color: #A98479; }
 
 .mid-gray { color: #555; }
 
@@ -1847,7 +1847,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .washed-green { color: #e8fdf5; }
 
-.washed-yellow { color: #fffceb; }
+.washed-yellow { color: #e9ddd6; }
 
 .washed-red { color: #ffdfdf; }
 
@@ -1892,9 +1892,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 /* Background colors */
 .bg-black { background-color: #000; }
 
-.bg-near-black { background-color: #111; }
+.bg-near-black { background-color: #5C5959; }
 
-.bg-dark-gray { background-color: #333; }
+.bg-dark-gray { background-color: #A98479; }
 
 .bg-mid-gray { background-color: #555; }
 
@@ -1960,7 +1960,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .bg-washed-green { background-color: #e8fdf5; }
 
-.bg-washed-yellow { background-color: #fffceb; }
+.bg-washed-yellow { background-color: #e9ddd6; }
 
 .bg-washed-red { background-color: #ffdfdf; }
 
@@ -1968,9 +1968,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
  Customize the color of an element when it is focused or hovered over.  */
 .hover-black:hover, .hover-black:focus { color: #000; }
 
-.hover-near-black:hover, .hover-near-black:focus { color: #111; }
+.hover-near-black:hover, .hover-near-black:focus { color: #5C5959; }
 
-.hover-dark-gray:hover, .hover-dark-gray:focus { color: #333; }
+.hover-dark-gray:hover, .hover-dark-gray:focus { color: #A98479; }
 
 .hover-mid-gray:hover, .hover-mid-gray:focus { color: #555; }
 
@@ -2026,9 +2026,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .hover-bg-black:hover, .hover-bg-black:focus { background-color: #000; }
 
-.hover-bg-near-black:hover, .hover-bg-near-black:focus { background-color: #111; }
+.hover-bg-near-black:hover, .hover-bg-near-black:focus { background-color: #5C5959; }
 
-.hover-bg-dark-gray:hover, .hover-bg-dark-gray:focus { background-color: #333; }
+.hover-bg-dark-gray:hover, .hover-bg-dark-gray:focus { background-color: #A98479; }
 
 .hover-bg-dark-gray:focus, .hover-bg-mid-gray:hover { background-color: #555; }
 
@@ -2130,7 +2130,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .hover-washed-green:hover, .hover-washed-green:focus { color: #e8fdf5; }
 
-.hover-washed-yellow:hover, .hover-washed-yellow:focus { color: #fffceb; }
+.hover-washed-yellow:hover, .hover-washed-yellow:focus { color: #e9ddd6; }
 
 .hover-washed-red:hover, .hover-washed-red:focus { color: #ffdfdf; }
 
@@ -2180,7 +2180,7 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .hover-bg-washed-green:hover, .hover-bg-washed-green:focus { background-color: #e8fdf5; }
 
-.hover-bg-washed-yellow:hover, .hover-bg-washed-yellow:focus { background-color: #fffceb; }
+.hover-bg-washed-yellow:hover, .hover-bg-washed-yellow:focus { background-color: #e9ddd6; }
 
 .hover-bg-washed-red:hover, .hover-bg-washed-red:focus { background-color: #ffdfdf; }
 
