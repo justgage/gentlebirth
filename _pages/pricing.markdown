@@ -1,7 +1,7 @@
 ---
 title: Pricing
 permalink: "/pricing/"
-layout: page
+layout: default
 ---
 
 ## Yes

@@ -1,7 +1,7 @@
 ---
 title: Womens Health
 permalink: "/womens-health/"
-layout: page
+layout: default
 ---
 
 ## Yes

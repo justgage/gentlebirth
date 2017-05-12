@@ -1,7 +1,7 @@
 ---
 title: About Me
 permalink: "/about/"
-layout: page
+layout: default
 ---
 
 ![karla-holding-baby-wide.webp](/uploads/karla-baby-wide.webp)

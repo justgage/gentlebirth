@@ -1,7 +1,7 @@
 ---
 title: Home Birth
 permalink: "/home-birth/"
-layout: page
+layout: default
 ---
 
 ## Yes
