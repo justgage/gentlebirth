@@ -1,6 +1,6 @@
 ---
-title: About Me
-permalink: "/about/"
+title: Meet The Midwife
+permalink: "/meet-the-midwife/"
 layout: default
 ---
 

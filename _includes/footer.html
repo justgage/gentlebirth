@@ -1,8 +1,19 @@
-<footer class="pv4 ph3 ph5-ns tc serif">
-  <div class="f3 black-60 tl mt2 measure-narrow mw5 center">
-    <p class="tc f4">{{ site.title | escape }} </p>
-    <p class="tl lh-copy db i bl pl3">{{ site.description | escape }}</p>
+<footer class="pv4 ph3 ph5-ns tc serif black-60">
+  <div class="measure center">
+    <h4 class="f3 mb0">Set up an Appointment</h5>
+    <form action="https://formspree.io/justgage@gmail.com"
+        method="POST" class="flex flex-column">
+      <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Name" type="text" name="name">
+      <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Your Email" type="email" name="_replyto">
+      <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Your Phone Number" type="phone-number" name="phone">
+      <textarea class="input-reset br3 ba b--light-gray mt3 pa2 h4" placeholder="Tell me about yourself, when can you meet?" type="phone-number" name="description"></textarea>
+      <input class="mt3 pa3 tracked ttu grow bw0 bg-dark-gray br-pill white" type="submit" value="Setup Apointment">
+    </form>
+
+    <p>Or feel free to call us at <a class="pointer link dim black-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
   </div>
+
+
   <div class="mt4 f6">
     {% if site.email %}
       <a class="pointer link dim black-80 dib mr3 mr4-ns mv2" href="mailto:{{ site.email }}">{{ site.email }}</a>
@@ -12,5 +23,8 @@
         Facebook page
       </a>
     {% endif %}
+  </div>
+  <div class="f6 i tc mv4">
+    © 2016 by Gentle Birth and Women's Health
   </div>
 </footer>

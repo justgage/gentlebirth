@@ -1,5 +1,5 @@
 ---
-title: Home Birth
+title: FAQ
 permalink: "/home-birth/"
 layout: default
 ---

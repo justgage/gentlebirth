@@ -3,18 +3,19 @@ layout: home
 ---
 
 <section class="center">
-  <img src="/assets/images/mother-with-baby.jpg" class="w-100 db" alt="">
-  <h2 class="f2">Birth Stories</h2>
+  <img src="/assets/images/baby-chubs.webp" class="w-100 db" alt="">
+  <h2 class="mt5 f1 tc">Birth Stories</h2>
   {% for post in site.posts %}
-    <article class="pv4 b--black-10 ph3 ph0-l">
-      <div class="flex flex-column flex-row-ns">
-        <div class="measure pr3-ns">
-          <a class="link serif black hover-bg-gray-60" href="{{ post.url | relative_url }}">
-            <h3 class="mt0 lh-title black">{{ post.title | escape }}</h1>
-            <div class="f5 f4-l lh-copy black">
-              {{post.excerpt}}
-            </div>
-          </a>
+    <article class="pv4 pr4 b--black-10 w-50-l fl-l">
+      <div class="">
+        <div class="">
+            <h3 class="f4 i mt0 lh-title">{{ post.title | escape }}</h1>
+            <a href="{{ post.url | relative_url }}" class="black-70  link">
+              <div class="f4 f3-l lh-copy measure">
+                {{ post.excerpt }}
+              </div> <p class="dark-gray db underline-hover f5 tracked ttu">read more </p>
+            </a>
+
         </div>
       </div>
       <!-- Look the author details up from the site config. -->
@@ -30,4 +31,5 @@ layout: home
       </p>
     </article>
   {% endfor %}
+  <br class="cb"/>
 </section>

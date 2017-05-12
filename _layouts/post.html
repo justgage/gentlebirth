@@ -3,7 +3,12 @@ layout: default
 ---
 
 <article class="athelas" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="center measure-wide f5 pv5 lh-copy ph2" itemprop="articleBody">
+  <div class="f4 measure">
+    {{ content }}
+  <div>
+
+
+  <div class="center f5 lh-copy ph2 tc" itemprop="articleBody">
     Posted
     {% if page.author %}
       by
@@ -11,7 +16,7 @@ layout: default
     {% endif %}
     on
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
-    {{ content }}
+
   </div>
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
