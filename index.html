@@ -6,7 +6,7 @@ layout: home
   <img src="/assets/images/baby-chubs.webp" class="w-100 db" alt="">
   <h2 class="mt5 f1 tc">Birth Stories</h2>
   {% for post in site.posts %}
-    <article class="pv4 pr4 b--black-10 w-50-l fl-l">
+    <article class="pv4 pl4 pr4 b--black-10 w-50-l fl-l">
       <div class="">
         <div class="">
             <h3 class="f4 i mt0 lh-title">{{ post.title | escape }}</h1>
@@ -23,7 +23,7 @@ layout: home
       <p class="f6 lh-copy gray mv0">
         Posted By
         {% if author %}
-          <a class="link black hover-blue" href="{{ author.web }}" target="_blank">{{ author.name }}</a>
+          <a class="link black" href="{{ author.web }}" target="_blank">{{ author.name }}</a>
         {% else %}
           <span class="">{{post.author}}</span>
         {% endif %}
