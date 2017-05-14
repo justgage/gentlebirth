@@ -458,11 +458,11 @@ img { max-width: 100%; }
 
 .b--light-purple { border-color: #a463f2; }
 
-.b--dark-pink { border-color: #d5008f; }
+.b--dark-pink { border-color: #fbc8c8; }
 
 .b--hot-pink { border-color: #ff41b4; }
 
-.b--pink { border-color: #ff80cc; }
+.b--pink { border-color: #fbc8c8; }
 
 .b--light-pink { border-color: #ffa3d7; }
 
@@ -1819,11 +1819,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .light-purple { color: #a463f2; }
 
-.dark-pink { color: #d5008f; }
+.dark-pink { color: #fbc8c8; }
 
 .hot-pink { color: #ff41b4; }
 
-.pink { color: #ff80cc; }
+.pink { color: #fbc8c8; }
 
 .light-pink { color: #ffa3d7; }
 
@@ -1932,11 +1932,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .bg-light-purple { background-color: #a463f2; }
 
-.bg-dark-pink { background-color: #d5008f; }
+.bg-dark-pink { background-color: #fbc8c8; }
 
 .bg-hot-pink { background-color: #ff41b4; }
 
-.bg-pink { background-color: #ff80cc; }
+.bg-pink { background-color: #fbc8c8; }
 
 .bg-light-pink { background-color: #ffa3d7; }
 
@@ -2102,11 +2102,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .hover-light-purple:hover, .hover-light-purple:focus { color: #a463f2; }
 
-.hover-dark-pink:hover, .hover-dark-pink:focus { color: #d5008f; }
+.hover-dark-pink:hover, .hover-dark-pink:focus { color: #fbc8c8; }
 
 .hover-hot-pink:hover, .hover-hot-pink:focus { color: #ff41b4; }
 
-.hover-pink:hover, .hover-pink:focus { color: #ff80cc; }
+.hover-pink:hover, .hover-pink:focus { color: #fbc8c8; }
 
 .hover-light-pink:hover, .hover-light-pink:focus { color: #ffa3d7; }
 
@@ -2152,11 +2152,11 @@ code, .code { font-family: Consolas, monaco, monospace; }
 
 .hover-bg-light-purple:hover, .hover-bg-light-purple:focus { background-color: #a463f2; }
 
-.hover-bg-dark-pink:hover, .hover-bg-dark-pink:focus { background-color: #d5008f; }
+.hover-bg-dark-pink:hover, .hover-bg-dark-pink:focus { background-color: #fbc8c8; }
 
 .hover-bg-hot-pink:hover, .hover-bg-hot-pink:focus { background-color: #ff41b4; }
 
-.hover-bg-pink:hover, .hover-bg-pink:focus { background-color: #ff80cc; }
+.hover-bg-pink:hover, .hover-bg-pink:focus { background-color: #fbc8c8; }
 
 .hover-bg-light-pink:hover, .hover-bg-light-pink:focus { background-color: #ffa3d7; }
 
