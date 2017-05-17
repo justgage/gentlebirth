@@ -16,10 +16,9 @@ The cost for our birth services is one flat fee of $3,500, __which covers all ne
 
 A discount for early payment may be available.
 
-If you need any additional treatments, such as IV therapy or antibiotics, or if you choose to give your baby vitamin K or  eye ointment, there are additional, but reasonable costs.
+If you need any additional treatments, such as IV therapy or antibiotics, or if you choose to give your baby vitamin K or  eye ointment, there are additional, but reasonable costs. Rhogam for rh negative women is also extra. 
 
-Rhogam for rh negative women is also extra. A statement will be provided, with proper codes, that you can submit to your insurance company for reimbursement, if applicable.
-
+A statement will be provided, with proper codes, that you can submit to your insurance company for reimbursement, if applicable.
 **Your claims may also be submitted for reimbursement through many insurance companies.**
 
 ## Women's Health or other Services
