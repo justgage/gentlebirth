@@ -6,79 +6,163 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Birth And Women&#39;s Health</title>
+  <title>Birth &amp; Women&#39;s Health</title>
   <meta name="description" content="At Gentle Birth and Women&#39;s Health we offer natural safe pregnancy and home birth services, and respectful holistic women&#39;s health care. We provide one-on-on...">
 
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://gentlebirthandwomenshealth.siteleaf.net/birth-and-womens-health/">
-  <link rel="alternate" type="application/rss+xml" title="Gentle Girth and Womens Health" href="/feed.xml">
+  <link rel="stylesheet" href="/gentlebirth/assets/main.css">
+  <link rel="canonical" href="http://gentlebirthandwomenshealth.siteleaf.net/gentlebirth/birth-and-womens-health/">
+  <link rel="alternate" type="application/rss+xml" title="Gentle Birth" href="/gentlebirth/feed.xml">
   
   
 </head>
 
 
-  <body class="bg-washed-yellow ph4-ns">
+  <body class="bg-purple-to-pink ph4-ns">
 
     <header class="post-header">
-    <header class="serif">
+    <header class="serif" id="header">
     <div class="mw7 center">
-      <nav class="dt w-100 mw8 center mb4">
-        <div class="dtc v-mid">
-          <a href="/" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
-            <img src="/assets/images/brown-logo.png" alt="Gentle Girth and Womens Health"/>
-          </a>
+      <a class="link dn-ns f2 fr pa2 white" @click="toggleMenu">&#9776;</a>
+      <nav class="w-100 mw8 center">
+      <div v-if="!menuOpen" class="flex flex-column flex-row-ns items-center justify-center w-100 mb4">
+        <a href="/gentlebirth/" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
+          <img src="/gentlebirth/assets/images/logo.png" alt="Gentle Birth"/>
+        </a>
+        <div class="tr-ns tc i">
+          <h1 class="mb0 white-90">Gentle Birth</h1>
+          <h2 class="f5 mv0 white-60 fw1">and Women's Health</h2>
         </div>
-        <div class="dtc v-mid tr pa3">
+      </div>
+      <div 
+        id="tabs"
+        v-bind:class="{ dn: !menuOpen }" 
+        class="flex flex-column flex-row-ns w-100 tc pv2 pv0-ns pt3-ns ph4 ph0-ns justify-center">
+        
+        
+        
+        <a class="f5
+          fw4
+          br-pill
+          br2-ns
+          db
+          br--top-ns
+          bg-animate
           
+            bg-white-50
           
-            
-              <a class="f5 fw4 hover-white br-pill bg-animate
-              hover-bg-dark-gray no-underline black-70 db dib-ns
-              pv2 ph3 mv3 mv0-ns"
-              href="/meet-the-midwife/">
-                Meet The Midwife
-              </a>
-            
+          hover-bg-white-90
+          link
+          black-70
+          dib-ns
+          pv3
+          pv2-ns
+          ph3
+          mv0-ns
+          mh1-m
+          mh2-l
+          mv2
+          "
+          href="/gentlebirth/meet-the-midwife/">
+          Meet The Midwife
+        </a>
+        
+        
+        
+        
+        
+        <a class="f5
+          fw4
+          br-pill
+          br2-ns
+          db
+          br--top-ns
+          bg-animate
           
-            
+            bg-white-50
           
-            
-              <a class="f5 fw4 hover-white br-pill bg-animate
-              hover-bg-dark-gray no-underline black-70 db dib-ns
-              pv2 ph3 mv3 mv0-ns"
-              href="/home-birth/">
-                FAQ
-              </a>
-            
+          hover-bg-white-90
+          link
+          black-70
+          dib-ns
+          pv3
+          pv2-ns
+          ph3
+          mv0-ns
+          mh1-m
+          mh2-l
+          mv2
+          "
+          href="/gentlebirth/home-birth/">
+          FAQ
+        </a>
+        
+        
+        
+        
+        
+        
+        
+        <a class="f5
+          fw4
+          br-pill
+          br2-ns
+          db
+          br--top-ns
+          bg-animate
           
-            
+            bg-white-50
           
-            
+          hover-bg-white-90
+          link
+          black-70
+          dib-ns
+          pv3
+          pv2-ns
+          ph3
+          mv0-ns
+          mh1-m
+          mh2-l
+          mv2
+          "
+          href="/gentlebirth/pricing/">
+          Pricing
+        </a>
+        
+        
+        
+        <a class="f5
+          fw4
+          br-pill
+          br2-ns
+          db
+          br--top-ns
+          bg-animate
           
-            
-              <a class="f5 fw4 hover-white br-pill bg-animate
-              hover-bg-dark-gray no-underline black-70 db dib-ns
-              pv2 ph3 mv3 mv0-ns"
-              href="/pricing/">
-                Pricing
-              </a>
-            
+            bg-white
           
-            
-              <a class="f5 fw4 hover-white br-pill bg-animate
-              hover-bg-dark-gray no-underline black-70 db dib-ns
-              pv2 ph3 mv3 mv0-ns"
-              href="/birth-and-womens-health/">
-                Birth And Women&#39;s Health
-              </a>
-            
-          
-            
-          
-          <!-- <a class="f6 fw4 hover&#45;white no&#45;underline bg&#45;animate hover&#45;bg&#45;dark&#45;gray black&#45;70 db dib&#45;ns ml2 mv mv21 pv2 ph3 ba" href="/" > -->
+          hover-bg-white-90
+          link
+          black-70
+          dib-ns
+          pv3
+          pv2-ns
+          ph3
+          mv0-ns
+          mh1-m
+          mh2-l
+          mv2
+          "
+          href="/gentlebirth/birth-and-womens-health/">
+          Birth &amp; Women&#39;s Health
+        </a>
+        
+        
+        
+        
+        <!-- <a class="f6 fw4 hover&#45;white no&#45;underline bg&#45;animate hover&#45;bg&#45;dark&#45;gray black&#45;70 db dib&#45;ns ml2 mv mv21 pv2 ph3 ba" href="/" > -->
           <!--   Make an Appointment -->
           <!-- </a> -->
-        </div>
+      </div>
       </nav>
     </div>
   </div>
@@ -90,7 +174,7 @@
       <div class="tc ph3">
         <h1 class="f2 f1-l fw2 near-black mb2 mt2 lh-title">
           
-            Birth And Women's Health
+            Birth & Women's Health
           
         </h1>
       </div>
@@ -124,10 +208,10 @@
       </div>
     </article>
 
-    <footer class="pv4 ph3 ph5-ns tc serif black-60">
+    <footer class="pv4 ph3 ph5-ns tc serif white-80">
   <div class="measure center">
-    <a href="/meet-the-midwife/" class="link near-black underline-hover" alt="meet the midwife">
-      <img class="pa1 ba b--black-10 h4 w4 bg-white" src="/assets/karla-avatar-baby.jpg" alt="picture of Karla" />
+    <a href="/meet-the-midwife/" class="link white-90 underline-hover" alt="meet the midwife">
+      <img class="pa1 ba b--white-10 h4 w4 bg-white" src="/gentlebirth/assets/karla-avatar-baby.jpg" alt="picture of Karla" />
       <h4 class="f3 mv3">Meet with Karla</h4>
       <p class="i mv2">Karla Jo Bennett - Certified Nurse Midwife</p>
     </a>
@@ -137,16 +221,16 @@
       <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Your Phone Number" type="phone-number" name="phone">
       <textarea class="input-reset br3 ba b--light-gray mt3 pa2 h4" placeholder="When can we meet? Any questions you have" type="phone-number" name="description"></textarea>
       <p class="mv3 pv0">She usually answers within 24 hours.</p>
-      <input class="pa3 tracked ttu grow bw0 bg-dark-gray br-pill white" type="submit" value="Setup Apointment">
+      <input class="pa3 tracked ttu grow bw0 bg-hot-pink br-pill white" type="submit" value="Setup Apointment">
     </form>
 
-    <p>Or feel free to call her at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
+    <p>Or feel free to call her at <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
     
-    <p>Or Email at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="mailto: UtahGentleBirthMidwife@gmail.com"> UtahGentleBirthMidwife@gmail.com</a> </p>
+    <p>Or Email at <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="mailto: UtahGentleBirthMidwife@gmail.com"> UtahGentleBirthMidwife@gmail.com</a> </p>
     
      
     <p> Or message her on 
-      <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="https://facebook.com/gentlebirthandwomenshealth" title="facebook username">
+      <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="https://facebook.com/gentlebirthandwomenshealth" title="facebook username">
         Facebook
       </a>
       
@@ -158,6 +242,24 @@
 </footer>
 
 
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+      var vm = new Vue({
+   el: '#header',
+  data: {
+     menuOpen: false,
+  },
+  created: function () {
+    console.log('Vue works')
+  },
+  methods: {
+     toggleMenu: function() {
+        this.menuOpen = !this.menuOpen;
+     }
+  }
+})
+
+    </script>
   </body>
 
 </html>
