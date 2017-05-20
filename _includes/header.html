@@ -1,27 +1,54 @@
-<header class="serif">
+<header class="serif" id="header">
     <div class="mw7 center">
-      <nav class="dt w-100 mw8 center mb4">
-        <div class="dtc v-mid">
-          <a href="{{ "/" | relative_url}}" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
-            <img src="/assets/images/brown-logo.png" alt="{{ site.title | escape }}"/>
-          </a>
+      <a class="link dn-ns f2 fr pa2 white" @click="toggleMenu">&#9776;</a>
+      <nav class="w-100 mw8 center">
+      <div v-if="!menuOpen" class="flex flex-column flex-row-ns items-center justify-center w-100 mb4">
+        <a href="{{ "/" | relative_url}}" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
+          <img src="/assets/images/logo.png" alt="{{ site.title | escape }}"/>
+        </a>
+        <div class="tr-ns tc i">
+          <h1 class="mb0 white-90">{{ site.title }}</h1>
+          <h2 class="f5 mv0 white-60 fw1">{{ site.subtitle }}</h2>
         </div>
-        <div class="dtc v-mid tr pa3">
-          {% assign url = page.url %}
-          {% for my_page in site.pages %}
-            {% if my_page.title %}
-              <a class="f5 fw4 hover-white br-pill bg-animate
-              hover-bg-dark-gray no-underline black-70 db dib-ns
-              pv2 ph3 mv3 mv0-ns"
-              href="{{ my_page.url | relative_url }}">
-                {{ my_page.title | escape }}
-              </a>
-            {% endif %}
-          {% endfor %}
-          <!-- <a class="f6 fw4 hover&#45;white no&#45;underline bg&#45;animate hover&#45;bg&#45;dark&#45;gray black&#45;70 db dib&#45;ns ml2 mv mv21 pv2 ph3 ba" href="/" > -->
+      </div>
+      <div id="tabs" v-bind:class="{ dn: !menuOpen }" class="center w-100 tc db-ns pt5 pt3-ns">
+        {% assign url = page.url %}
+        {% for my_page in site.pages %}
+        {% if my_page.title %}
+        <a class="f5
+          fw4
+          br-pill
+          br2-ns
+          br--top-ns
+          bg-animate
+
+          {% if page.url == my_page.url %}
+          bg-white
+          {% else %}
+          bg-white-50
+          {% endif %}
+          hover-bg-white-90
+
+          link
+          black-70
+          db
+          dib-ns
+          pv2
+          ph3
+          mv3
+          mh4
+          mh1-ns
+          mv0-ns
+          "
+          href="{{ my_page.url | relative_url }}">
+          {{ my_page.title | escape }}
+        </a>
+        {% endif %}
+        {% endfor %}
+        <!-- <a class="f6 fw4 hover&#45;white no&#45;underline bg&#45;animate hover&#45;bg&#45;dark&#45;gray black&#45;70 db dib&#45;ns ml2 mv mv21 pv2 ph3 ba" href="/" > -->
           <!--   Make an Appointment -->
           <!-- </a> -->
-        </div>
+      </div>
       </nav>
     </div>
   </div>

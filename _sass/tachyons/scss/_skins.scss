@@ -122,6 +122,11 @@
 .bg-yellow { background-color: $yellow; }
 .bg-light-yellow { background-color: $light-yellow; }
 .bg-purple { background-color: $purple; }
+.bg-purple-to-pink {
+  background: #a770ef; /* fallback for old browsers */
+  background: -webkit-linear-gradient(27deg, #a770ef, #cf8bf3, #fdb99b); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(27deg, #a770ef, #cf8bf3, #fdb99b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 .bg-light-purple { background-color: $light-purple; }
 .bg-dark-pink { background-color: $dark-pink; }
 .bg-hot-pink { background-color: $hot-pink; }

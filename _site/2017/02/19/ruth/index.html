@@ -11,72 +11,157 @@
 
   <link rel="stylesheet" href="/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/2017/02/19/ruth/">
-  <link rel="alternate" type="application/rss+xml" title="Gentle Girth and Womens Health" href="/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Gentle Birth" href="/feed.xml">
   
   
 </head>
 
 
-  <body class="bg-washed-yellow ph4-ns">
+  <body class="bg-purple-to-pink ph4-ns">
 
     <header class="post-header">
-    <header class="serif">
+    <header class="serif" id="header">
     <div class="mw7 center">
-      <nav class="dt w-100 mw8 center mb4">
-        <div class="dtc v-mid">
-          <a href="/" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
-            <img src="/assets/images/brown-logo.png" alt="Gentle Girth and Womens Health"/>
-          </a>
+      <a class="link dn-ns f2 fr pa2 white" @click="toggleMenu">&#9776;</a>
+      <nav class="w-100 mw8 center">
+      <div v-if="!menuOpen" class="flex flex-column flex-row-ns items-center justify-center w-100 mb4">
+        <a href="/" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
+          <img src="/assets/images/logo.png" alt="Gentle Birth"/>
+        </a>
+        <div class="tr-ns tc i">
+          <h1 class="mb0 white-90">Gentle Birth</h1>
+          <h2 class="f5 mv0 white-60 fw1">and Women's Health</h2>
         </div>
-        <div class="dtc v-mid tr pa3">
+      </div>
+      <div id="tabs" v-bind:class="{ dn: !menuOpen }" class="center w-100 tc db-ns pt5 pt3-ns">
+        
+        
+        
+        <a class="f5
+          fw4
+          br-pill
+          br2-ns
+          br--top-ns
+          bg-animate
+
           
+          bg-white-50
           
-            
-              <a class="f5 fw4 hover-white br-pill bg-animate
-              hover-bg-dark-gray no-underline black-70 db dib-ns
-              pv2 ph3 mv3 mv0-ns"
-              href="/meet-the-midwife/">
-                Meet The Midwife
-              </a>
-            
+          hover-bg-white-90
+
+          link
+          black-70
+          db
+          dib-ns
+          pv2
+          ph3
+          mv3
+          mh4
+          mh1-ns
+          mv0-ns
+          "
+          href="/meet-the-midwife/">
+          Meet The Midwife
+        </a>
+        
+        
+        
+        <a class="f5
+          fw4
+          br-pill
+          br2-ns
+          br--top-ns
+          bg-animate
+
           
-            
-              <a class="f5 fw4 hover-white br-pill bg-animate
-              hover-bg-dark-gray no-underline black-70 db dib-ns
-              pv2 ph3 mv3 mv0-ns"
-              href="/home-birth/">
-                FAQ
-              </a>
-            
+          bg-white-50
           
-            
+          hover-bg-white-90
+
+          link
+          black-70
+          db
+          dib-ns
+          pv2
+          ph3
+          mv3
+          mh4
+          mh1-ns
+          mv0-ns
+          "
+          href="/home-birth/">
+          FAQ
+        </a>
+        
+        
+        
+        
+        
+        
+        
+        <a class="f5
+          fw4
+          br-pill
+          br2-ns
+          br--top-ns
+          bg-animate
+
           
-            
+          bg-white-50
           
-            
-              <a class="f5 fw4 hover-white br-pill bg-animate
-              hover-bg-dark-gray no-underline black-70 db dib-ns
-              pv2 ph3 mv3 mv0-ns"
-              href="/pricing/">
-                Pricing
-              </a>
-            
+          hover-bg-white-90
+
+          link
+          black-70
+          db
+          dib-ns
+          pv2
+          ph3
+          mv3
+          mh4
+          mh1-ns
+          mv0-ns
+          "
+          href="/pricing/">
+          Pricing
+        </a>
+        
+        
+        
+        <a class="f5
+          fw4
+          br-pill
+          br2-ns
+          br--top-ns
+          bg-animate
+
           
-            
-              <a class="f5 fw4 hover-white br-pill bg-animate
-              hover-bg-dark-gray no-underline black-70 db dib-ns
-              pv2 ph3 mv3 mv0-ns"
-              href="/birth-and-womens-health/">
-                Birth And Women&#39;s Health
-              </a>
-            
+          bg-white-50
           
-            
-          
-          <!-- <a class="f6 fw4 hover&#45;white no&#45;underline bg&#45;animate hover&#45;bg&#45;dark&#45;gray black&#45;70 db dib&#45;ns ml2 mv mv21 pv2 ph3 ba" href="/" > -->
+          hover-bg-white-90
+
+          link
+          black-70
+          db
+          dib-ns
+          pv2
+          ph3
+          mv3
+          mh4
+          mh1-ns
+          mv0-ns
+          "
+          href="/birth-and-womens-health/">
+          Birth And Women&#39;s Health
+        </a>
+        
+        
+        
+        
+        <!-- <a class="f6 fw4 hover&#45;white no&#45;underline bg&#45;animate hover&#45;bg&#45;dark&#45;gray black&#45;70 db dib&#45;ns ml2 mv mv21 pv2 ph3 ba" href="/" > -->
           <!--   Make an Appointment -->
           <!-- </a> -->
-        </div>
+      </div>
       </nav>
     </div>
   </div>
@@ -149,6 +234,24 @@
 </footer>
 
 
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+      var vm = new Vue({
+   el: '#header',
+  data: {
+     menuOpen: false,
+  },
+  created: function () {
+    console.log('Vue works')
+  },
+  methods: {
+     toggleMenu: function() {
+        this.menuOpen = !this.menuOpen;
+     }
+  }
+})
+
+    </script>
   </body>
 
 </html>
