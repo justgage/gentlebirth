@@ -1,5 +1,5 @@
 ---
-title: Birth And Women's Health
+title: Birth & Women's Health
 permalink: "/birth-and-womens-health/"
 layout: default
 ---

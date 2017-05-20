@@ -9,9 +9,9 @@
   <title>Pricing</title>
   <meta name="description" content="At Gentle Birth and Women&#39;s Health we offer natural safe pregnancy and home birth services, and respectful holistic women&#39;s health care. We provide one-on-on...">
 
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/pricing/">
-  <link rel="alternate" type="application/rss+xml" title="Gentle Birth" href="/feed.xml">
+  <link rel="stylesheet" href="/gentlebirth/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/gentlebirth/pricing/">
+  <link rel="alternate" type="application/rss+xml" title="Gentle Birth" href="/gentlebirth/feed.xml">
   
   
 </head>
@@ -25,15 +25,18 @@
       <a class="link dn-ns f2 fr pa2 white" @click="toggleMenu">&#9776;</a>
       <nav class="w-100 mw8 center">
       <div v-if="!menuOpen" class="flex flex-column flex-row-ns items-center justify-center w-100 mb4">
-        <a href="/" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
-          <img src="/assets/images/logo.png" alt="Gentle Birth"/>
+        <a href="/gentlebirth/" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
+          <img src="/gentlebirth/assets/images/logo.png" alt="Gentle Birth"/>
         </a>
         <div class="tr-ns tc i">
           <h1 class="mb0 white-90">Gentle Birth</h1>
           <h2 class="f5 mv0 white-60 fw1">and Women's Health</h2>
         </div>
       </div>
-      <div id="tabs" v-bind:class="{ dn: !menuOpen }" class="center w-100 tc db-ns pt5 pt3-ns">
+      <div 
+        id="tabs"
+        v-bind:class="{ dn: !menuOpen }" 
+        class="flex flex-column flex-row-ns w-100 tc pv2 pv0-ns pt3-ns ph4 ph0-ns justify-center">
         
         
         
@@ -41,26 +44,25 @@
           fw4
           br-pill
           br2-ns
+          db
           br--top-ns
           bg-animate
-
           
-          bg-white-50
+            bg-white-50
           
           hover-bg-white-90
-
           link
           black-70
-          db
           dib-ns
-          pv2
+          pv3
+          pv2-ns
           ph3
-          mv3
-          mh4
-          mh1-ns
           mv0-ns
+          mh1-m
+          mh2-l
+          mv2
           "
-          href="/meet-the-midwife/">
+          href="/gentlebirth/meet-the-midwife/">
           Meet The Midwife
         </a>
         
@@ -70,26 +72,25 @@
           fw4
           br-pill
           br2-ns
+          db
           br--top-ns
           bg-animate
-
           
-          bg-white-50
+            bg-white-50
           
           hover-bg-white-90
-
           link
           black-70
-          db
           dib-ns
-          pv2
+          pv3
+          pv2-ns
           ph3
-          mv3
-          mh4
-          mh1-ns
           mv0-ns
+          mh1-m
+          mh2-l
+          mv2
           "
-          href="/home-birth/">
+          href="/gentlebirth/home-birth/">
           FAQ
         </a>
         
@@ -103,26 +104,25 @@
           fw4
           br-pill
           br2-ns
+          db
           br--top-ns
           bg-animate
-
           
-          bg-white
+            bg-white
           
           hover-bg-white-90
-
           link
           black-70
-          db
           dib-ns
-          pv2
+          pv3
+          pv2-ns
           ph3
-          mv3
-          mh4
-          mh1-ns
           mv0-ns
+          mh1-m
+          mh2-l
+          mv2
           "
-          href="/pricing/">
+          href="/gentlebirth/pricing/">
           Pricing
         </a>
         
@@ -132,27 +132,26 @@
           fw4
           br-pill
           br2-ns
+          db
           br--top-ns
           bg-animate
-
           
-          bg-white-50
+            bg-white-50
           
           hover-bg-white-90
-
           link
           black-70
-          db
           dib-ns
-          pv2
+          pv3
+          pv2-ns
           ph3
-          mv3
-          mh4
-          mh1-ns
           mv0-ns
+          mh1-m
+          mh2-l
+          mv2
           "
-          href="/birth-and-womens-health/">
-          Birth And Women&#39;s Health
+          href="/gentlebirth/birth-and-womens-health/">
+          Birth &amp; Women&#39;s Health
         </a>
         
         
@@ -181,21 +180,33 @@
         <h2 id="birth-services">Birth Services</h2>
 
 <p>The cost for our birth services is one flat fee of $3,500, <strong>which covers all necessary and customary cost</strong> including:</p>
+
 <ul>
-  <li>all 12-13 of your prenatal visits</li>
-  <li>customary laboratory fees</li>
-  <li>your mid trimester anatomy ultrasound</li>
-  <li>your birth</li>
-  <li>and 2-4 postpartum visits for you and your baby.</li>
-  <li>your baby’s hearing and cardiac screening, and metabolic screen collection.</li>
+  <li>
+    <p>all 12-13 of your prenatal visits</p>
+  </li>
+  <li>
+    <p>customary laboratory fees</p>
+  </li>
+  <li>
+    <p>your mid trimester anatomy ultrasound</p>
+  </li>
+  <li>
+    <p>your birth</p>
+  </li>
+  <li>
+    <p>and 2-4 postpartum visits for you and your baby.</p>
+  </li>
+  <li>
+    <p>your baby’s hearing and cardiac screening, and metabolic screen collection.</p>
+  </li>
 </ul>
 
 <p>A discount for early payment may be available.</p>
 
-<p>If you need any additional treatments, such as IV therapy or antibiotics, or if you choose to give your baby vitamin K or  eye ointment, there are additional, but reasonable costs. Rhogam for rh negative women is also extra.</p>
+<p>If you need any additional treatments, such as IV therapy or antibiotics, or if you choose to give your baby vitamin K or  eye ointment, there are additional, but reasonable costs. Rhogam for Rh-negative women is also extra.</p>
 
-<p>A statement will be provided, with proper codes, that you can submit to your insurance company for reimbursement, if applicable.
-<strong>Your claims may also be submitted for reimbursement through many insurance companies.</strong></p>
+<p>A statement will be provided, with proper codes, that you can submit to your insurance company for reimbursement, if applicable. <strong>Your claims may also be submitted for reimbursement through many insurance companies.</strong></p>
 
 <h2 id="womens-health-or-other-services">Women’s Health or other Services</h2>
 
@@ -204,10 +215,10 @@
       </div>
     </article>
 
-    <footer class="pv4 ph3 ph5-ns tc serif black-60">
+    <footer class="pv4 ph3 ph5-ns tc serif white-80">
   <div class="measure center">
-    <a href="/meet-the-midwife/" class="link near-black underline-hover" alt="meet the midwife">
-      <img class="pa1 ba b--black-10 h4 w4 bg-white" src="/assets/karla-avatar-baby.jpg" alt="picture of Karla" />
+    <a href="/meet-the-midwife/" class="link white-90 underline-hover" alt="meet the midwife">
+      <img class="pa1 ba b--white-10 h4 w4 bg-white" src="/gentlebirth/assets/karla-avatar-baby.jpg" alt="picture of Karla" />
       <h4 class="f3 mv3">Meet with Karla</h4>
       <p class="i mv2">Karla Jo Bennett - Certified Nurse Midwife</p>
     </a>
@@ -217,16 +228,16 @@
       <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Your Phone Number" type="phone-number" name="phone">
       <textarea class="input-reset br3 ba b--light-gray mt3 pa2 h4" placeholder="When can we meet? Any questions you have" type="phone-number" name="description"></textarea>
       <p class="mv3 pv0">She usually answers within 24 hours.</p>
-      <input class="pa3 tracked ttu grow bw0 bg-dark-gray br-pill white" type="submit" value="Setup Apointment">
+      <input class="pa3 tracked ttu grow bw0 bg-hot-pink br-pill white" type="submit" value="Setup Apointment">
     </form>
 
-    <p>Or feel free to call her at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
+    <p>Or feel free to call her at <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
     
-    <p>Or Email at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="mailto: UtahGentleBirthMidwife@gmail.com"> UtahGentleBirthMidwife@gmail.com</a> </p>
+    <p>Or Email at <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="mailto: UtahGentleBirthMidwife@gmail.com"> UtahGentleBirthMidwife@gmail.com</a> </p>
     
      
     <p> Or message her on 
-      <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="https://facebook.com/gentlebirthandwomenshealth" title="facebook username">
+      <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="https://facebook.com/gentlebirthandwomenshealth" title="facebook username">
         Facebook
       </a>
       

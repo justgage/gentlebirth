@@ -4,7 +4,7 @@ permalink: "/meet-the-midwife/"
 layout: default
 ---
 
-![karla-holding-baby-wide.webp](/uploads/karla-baby-wide.webp)
+![karla-holding-baby-wide.webp](/gentlebirth/uploads/karla-baby-wide.webp)
 
 I fell in love with the process of birth while giving birth to my own 6 children, and as labor support for my family and friends.
 
@@ -23,6 +23,6 @@ As a CNM I can prescribe medication, if it's needed, but most often find that he
 I also educate women about their bodies throughout their lifespan, promoting good health and nutrition.   I am licensed as a Certified Nurse Midwife and educated as a Women's Health Nurse Practitioner.
 
 {: .tc}
-![karla-holding-baby.webp](/uploads/karla-holding-baby.webp)
+![karla-holding-baby.webp](/gentlebirth/uploads/karla-holding-baby.webp)
 
 \~ _Karla Jo Bennett - Certified Nurse Midwife_

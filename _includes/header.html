@@ -4,14 +4,17 @@
       <nav class="w-100 mw8 center">
       <div v-if="!menuOpen" class="flex flex-column flex-row-ns items-center justify-center w-100 mb4">
         <a href="{{ "/" | relative_url}}" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
-          <img src="/assets/images/logo.png" alt="{{ site.title | escape }}"/>
+          <img src="{{ "/assets/images/logo.png" | relative_url }}" alt="{{ site.title | escape }}"/>
         </a>
         <div class="tr-ns tc i">
           <h1 class="mb0 white-90">{{ site.title }}</h1>
           <h2 class="f5 mv0 white-60 fw1">{{ site.subtitle }}</h2>
         </div>
       </div>
-      <div id="tabs" v-bind:class="{ dn: !menuOpen }" class="center w-100 tc db-ns pt5 pt3-ns">
+      <div 
+        id="tabs"
+        v-bind:class="{ dn: !menuOpen }" 
+        class="flex flex-column flex-row-ns w-100 tc pv2 pv0-ns pt3-ns ph4 ph0-ns justify-center">
         {% assign url = page.url %}
         {% for my_page in site.pages %}
         {% if my_page.title %}
@@ -19,26 +22,25 @@
           fw4
           br-pill
           br2-ns
+          db
           br--top-ns
           bg-animate
-
           {% if page.url == my_page.url %}
-          bg-white
+            bg-white
           {% else %}
-          bg-white-50
+            bg-white-50
           {% endif %}
           hover-bg-white-90
-
           link
           black-70
-          db
           dib-ns
-          pv2
+          pv3
+          pv2-ns
           ph3
-          mv3
-          mh4
-          mh1-ns
           mv0-ns
+          mh1-m
+          mh2-l
+          mv2
           "
           href="{{ my_page.url | relative_url }}">
           {{ my_page.title | escape }}

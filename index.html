@@ -3,7 +3,8 @@ layout: home
 ---
 
 <section class="center">
-  <img src="/assets/images/baby-chubs.webp" class="w-100 db pa2 ba b--light-gray border-box shadow-4" alt="">
+<img src="{{ "/assets/images/baby-chubs.webp" | relative_url }}"
+     class="w-100 db pa2 ba b--light-gray border-box shadow-4" alt="">
   <h2 class="mt5 mb3 f2-ns f3 tc">Birth Stories</h2>
   {% for post in site.posts %}
     <article class="pv4-ns pv2 pl4 pr4 b--black-10 w-50-l fl-l">
