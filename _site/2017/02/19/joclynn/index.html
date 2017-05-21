@@ -23,13 +23,13 @@
     <header class="serif" id="header">
     <div class="mw7 center">
       <!-- hamburger -->
-      <a class="pointer link dn-ns f1 fr pa2 white" @click="toggleMenu">
+      <a class="pointer link dn-ns f1 pa2 white absolute right-1 top-0" @click="toggleMenu">
         &equiv;
       </a>
       <nav class="w-100 mw8 center">
-      <div v-show="!menuOpen" class="flex flex-column flex-row-ns items-center justify-center w-100 mb4">
+      <div class="pt3 flex flex-column flex-row-ns items-center justify-center w-100 mb4">
         <a href="/gentlebirth/" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
-          <img src="/gentlebirth/assets/images/logo.png" alt="Gentle Birth"/>
+          <img v-show="!menuOpen" src="/gentlebirth/assets/images/logo.png" alt="Gentle Birth"/>
         </a>
         <div class="tr-ns tc i">
           <h1 class="mb0 white-90">Gentle Birth</h1>
@@ -38,7 +38,7 @@
       </div>
       <div 
         id="tabs"
-        class="dn flex-column flex-row-ns w-100 tc pv2 pv0-ns pt3-ns ph4 ph0-ns justify-center"
+        class="dn flex-ns flex-column flex-row-ns w-100 tc pv2 pv0-ns pt3-ns ph4 ph0-ns justify-center"
         v-bind:class="{ flex: menuOpen }" 
         >
         
