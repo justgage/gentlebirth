@@ -3,13 +3,13 @@
 
   {% include head.html %}
 
-  <body class="bg-purple-to-pink ph4-ns">
+  <body class="bg-purple-to-pink">
 
-    <header class="post-header">
+    <header class="cover bg-left bg-center-l">
     {% include header.html %}
     </header>
 
-    <article class="mw8 bg-white shadow-4 mb4 black-90 post center serif f4-ns f5 pa2 pa4-ns">
+    <article class="bg-white shadow-4 mb4 black-90 post mw8 center serif f4-ns f5 pa4">
       <div class="tc ph3">
         <h1 class="f2 f1-l fw2 near-black mb2 mt2 lh-title">
           {% if page.title %}
@@ -18,21 +18,18 @@
             {{site.headline}}
           {% endif %}
         </h1>
-        
-        {% if page.title %}
-        {% else %}
-        <h2 class="f4 f3-l fw2 dark-gray i mb4 mt2 lh-title">
-            {{site.subheadline}}
-        </h2>
-        {% endif %}
       </div>
-      <div class="post-content center0 lh-copy">
+      <div class="post-content center lh-copy">
         {{ content }}
       </div>
     </article>
 
     {% include footer.html %}
 
+    <script src="https://unpkg.com/vue"></script>
+    <script>
+      {% include script.js %}
+    </script>
   </body>
 
 </html>

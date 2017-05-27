@@ -3,32 +3,37 @@ layout: home
 ---
 
 <section class="center">
-<img src="{{ "/assets/images/baby-chubs.webp" | relative_url }}"
+<img src="{{ "/assets/happy-mom-picture.webp" | relative_url }}"
      class="w-100 db pa2 ba b--light-gray border-box shadow-4" alt="">
-  <h2 class="mt5 mb3 f2-ns f3 tc">Birth Stories</h2>
+
+     <div class="f3 lh-copy mt4 measure-narrow center i">
+       At Gentle Birth and Women's Health we offer natural safe pregnancy and home 
+       birth services, and respectful holistic women's health care. We provide one 
+       to one attention from an experienced Certified Nurse Midwife, committed  to 
+       protecting your birth and your health.
+     </div>
+
+  <h2 class="black-70 mt5 mb3 f2-ns f3 tc">Birth Stories</h2>
   {% for post in site.posts %}
-    <article class="pv4-ns pv2 pl4 pr4 b--black-10 w-50-l fl-l">
+    <article class="pv4-ns pv2 pl4 pr4 b--truncateblack-10 measure center">
       <div class="">
         <div class="">
+          <p class="f6 lh-copy gray mv0 fr dib pt1">
+            <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+          </p>
           <h3 class="f4 i mt0 lh-title">{{ post.title | escape }}</h1>
           <a href="{{ post.url | relative_url }}" class="black-70  link">
-            <div class="f4 f3-l lh-copy measure">
+            <div class="f4 lh-copy measure">
               {{ post.excerpt }}
-            </div> <p class="dark-gray db underline-hover f5 tracked ttu">read more </p>
+            </div>
+            <div class="dark-gray db underline-hover f5 tracked ttu">
+            read more 
+            </div>
           </a>
         </div>
       </div>
       <!-- Look the author details up from the site config. -->
       {% assign author = site.authors[post.author] %}
-      <p class="f6 lh-copy gray mv0">
-        Posted By
-        {% if author %}
-          <a class="link black" href="{{ author.web }}" target="_blank">{{ author.name }}</a>
-        {% else %}
-          <span class="">{{post.author}}</span>
-        {% endif %}
-         on <time>{{ post.date | date: "%b %-d, %Y" }}</time>
-      </p>
     </article>
   {% endfor %}
   <br class="cb"/>
