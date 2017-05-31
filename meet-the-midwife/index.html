@@ -6,8 +6,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Meet The Midwife</title>
+  <title>Meet The Midwife |  Gentle Birth and Women&#39;s Health</title>
   <meta name="description" content="At Gentle Birth and Women&#39;s Health we offer natural safe pregnancy and home birth services, and respectful holistic women&#39;s health care. We provide one-on-on...">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href=/gentlebirth/apple-icon-57x57.png>
+  <link rel="apple-touch-icon" sizes="60x60" href=/gentlebirth/apple-icon-60x60.png>
+  <link rel="apple-touch-icon" sizes="72x72" href=/gentlebirth/apple-icon-72x72.png>
+  <link rel="apple-touch-icon" sizes="76x76" href=/gentlebirth/apple-icon-76x76.png>
+  <link rel="apple-touch-icon" sizes="114x114" href=/gentlebirth/apple-icon-114x114.png>
+  <link rel="apple-touch-icon" sizes="120x120" href=/gentlebirth/apple-icon-120x120.png>
+  <link rel="apple-touch-icon" sizes="144x144" href=/gentlebirth/apple-icon-144x144.png>
+  <link rel="apple-touch-icon" sizes="152x152" href=/gentlebirth/apple-icon-152x152.png>
+  <link rel="apple-touch-icon" sizes="180x180" href=/gentlebirth/apple-icon-180x180.png>
+  <link rel="icon" type="image/png" sizes="192x192"  href=/gentlebirth/android-icon-192x192.png>
+  <link rel="icon" type="image/png" sizes="32x32" href=/gentlebirth/favicon-32x32.png>
+  <link rel="icon" type="image/png" sizes="96x96" href=/gentlebirth/favicon-96x96.png>
+  <link rel="icon" type="image/png" sizes="16x16" href=/gentlebirth/favicon-16x16.png>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- END favicon -->
 
   <link rel="stylesheet" href="/gentlebirth/assets/main.css">
   <link rel="canonical" href="http://gentlebirthandwomenshealth.siteleaf.net/gentlebirth/meet-the-midwife/">
@@ -17,28 +37,28 @@
 </head>
 
 
-  <body class="bg-purple-to-pink ph4-ns">
+  <body class="">
 
-    <header class="post-header">
+    <header class="cover bg-left bg-purple-to-pink">
     <header class="serif" id="header">
-    <div class="mw7 center">
+    <div class="mw7 center pv3 pv0-ns">
       <!-- hamburger -->
-      <a class="pointer link dn-ns f1 pa2 white absolute right-1 top-0" @click="toggleMenu">
+      <a class="pointer link dn-ns f1 pa2 white absolute right-1 top-0 dim" @click="toggleMenu">
         &equiv;
       </a>
-      <nav class="w-100 mw8 center">
-      <div class="pt3 flex flex-column flex-row-ns items-center justify-between w-100 mb4">
+      <nav class="w-100 mw8 center border-box ">
+      <div class="pt3 ph4-m mb4 flex flex-column flex-row-ns items-center justify-between w-100 border-box ">
         <div class="tr-ns tc i flex flex-column flex-row-ns items-center">
-        <a href="/gentlebirth/" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
+        <a href="/gentlebirth/" class="no-underline white-90 dim flex flex-column items-center flex-row-ns">
           <img v-show="!menuOpen" src="/gentlebirth/assets/images/logo.png" alt="Gentle Birth"/>
-        </a>
-        <div>
-          <h1 class="mb0 white-90">Gentle Birth</h1>
-          <h2 class="f5 mv0 white-60 fw1">and Women's Health</h2>
-        </div>
+			 <div class="ml2">
+				<h1 class="mb0 ">Gentle Birth</h1>
+				<h2 class="f5 mv0 white-60 fw1">and Women's Health</h2>
+			 </div>
+		  </a>
         </div>
         <div class="mt3 mt0-ns">
-          <a class="white br1 ba fr pa2 link hover-bg-white hover-pink" href="#contact-me">Contact Info &#x25BE;</a>
+          <a class="white br1 ba fr pa2 link hover-bg-white hover-pink" href="#contact-me">Make an Appointment</a>
         </div>
       </div>
       <div 
@@ -101,7 +121,7 @@
           mh2-l
           mv2
           "
-          href="/gentlebirth/home-birth/">
+          href="/gentlebirth/faq/">
           FAQ
         </a>
         
@@ -207,16 +227,18 @@
 
     </header>
 
-    <article class="bg-white shadow-4 mb4 black-90 post mw7 center serif f4-ns f5 pa4">
-      <div class="tc ph3">
-        <h1 class="f2 f1-l fw2 near-black mb2 mt2 lh-title">
+    <article class="post bg-white mb4 black-90 serif f4-ns f5 pa4">
+      <div class="tc">
+        <h1 class="f2 fw2 near-black mb2 mt4 lh-title ttu tracked baskerville">
           
             Meet The Midwife
           
         </h1>
+        
       </div>
-      <div class="post-content center measure lh-copy">
-        <p><img src="/gentlebirth/uploads/karla-baby-wide.webp" alt="karla-holding-baby-wide.webp" /></p>
+      <div class="post-content center lh-copy">
+        <div class="measure center black-80">
+<p><img src="/gentlebirth/uploads/karla-baby-wide.webp" alt="karla-holding-baby-wide.webp" /></p>
 
 <p>I fell in love with the process of birth while giving birth to my own 6 children, and as labor support for my family and friends.</p>
 
@@ -238,13 +260,16 @@
 
 <p>~ <em>Karla Jo Bennett - Certified Nurse Midwife</em></p>
 
+<div>
+
       </div>
     </article>
 
-    <footer class="pv4 ph3 ph5-ns tc serif white-80">
+    <footer class="pv4 ph3 ph5-ns tc serif black-80" id="contact-me" >
+  <h4 class="f2 mv3 black-60 ttu tracked baskerville">Make an Apointment</h4>
   <div class="measure center">
-    <a href="/meet-the-midwife/" class="link white-90 underline-hover" alt="meet the midwife">
-      <img class="pa1 ba b--white-10 h4 w4 bg-white" id="contact-me" src="/gentlebirth/assets/karla-avatar-baby.jpg" alt="picture of Karla" />
+    <a href="/meet-the-midwife/" class="link black-90 underline-hover" alt="meet the midwife">
+      <img class="pa1 ba b--black-10 h4 w4 bg-white" src="/gentlebirth/assets/karla-avatar-baby.jpg" alt="picture of Karla" />
       <h4 class="f3 mv3" >Meet with Karla</h4>
       <p class="i mv2">Karla Jo Bennett - Certified Nurse Midwife</p>
     </a>
@@ -254,16 +279,16 @@
       <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Your Phone Number" type="phone-number" name="phone">
       <textarea class="input-reset br3 ba b--light-gray mt3 pa2 h4" placeholder="When can we meet? Any questions you have" type="phone-number" name="description"></textarea>
       <p class="mv3 pv0">She usually answers within 24 hours.</p>
-      <input class="pa3 tracked ttu grow bw0 bg-hot-pink br-pill white" type="submit" value="Setup Apointment">
+      <input class="pa3 tracked ttu grow bw0 bg-purple-to-pink br-pill white" type="submit" value="Setup Apointment">
     </form>
 
-    <p>Or feel free to call her at <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
+    <p>Or feel free to call her at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
     
-    <p>Or Email at <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="mailto: UtahGentleBirthMidwife@gmail.com"> UtahGentleBirthMidwife@gmail.com</a> </p>
+    <p>Or Email at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="mailto: UtahGentleBirthMidwife@gmail.com"> UtahGentleBirthMidwife@gmail.com</a> </p>
     
      
     <p> Or message her on 
-      <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="https://facebook.com/gentlebirthandwomenshealth" title="facebook username">
+      <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="https://facebook.com/gentlebirthandwomenshealth" title="facebook username">
         Facebook
       </a>
       
