@@ -1,7 +1,7 @@
 ---
 title: FAQ
-permalink: "/home-birth/"
-layout: default
+permalink: "/faq/"
+layout: page
 ---
 
 To be written, check back soon!

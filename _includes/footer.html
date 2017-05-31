@@ -1,7 +1,8 @@
-<footer class="pv4 ph3 ph5-ns tc serif white-80">
+<footer class="pv4 ph3 ph5-ns tc serif black-80" id="contact-me" >
+  <h4 class="f2 mv3 black-60 ttu tracked baskerville">Make an Apointment</h4>
   <div class="measure center">
-    <a href="/meet-the-midwife/" class="link white-90 underline-hover" alt="meet the midwife">
-      <img class="pa1 ba b--white-10 h4 w4 bg-white" id="contact-me" src="{{ "/assets/karla-avatar-baby.jpg" | relative_url}}" alt="picture of Karla" />
+    <a href="/meet-the-midwife/" class="link black-90 underline-hover" alt="meet the midwife">
+      <img class="pa1 ba b--black-10 h4 w4 bg-white" src="{{ "/assets/karla-avatar-baby.jpg" | relative_url}}" alt="picture of Karla" />
       <h4 class="f3 mv3" >Meet with Karla</h4>
       <p class="i mv2">Karla Jo Bennett - Certified Nurse Midwife</p>
     </a>
@@ -11,16 +12,16 @@
       <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Your Phone Number" type="phone-number" name="phone">
       <textarea class="input-reset br3 ba b--light-gray mt3 pa2 h4" placeholder="When can we meet? Any questions you have" type="phone-number" name="description"></textarea>
       <p class="mv3 pv0">She usually answers within 24 hours.</p>
-      <input class="pa3 tracked ttu grow bw0 bg-hot-pink br-pill white" type="submit" value="Setup Apointment">
+      <input class="pa3 tracked ttu grow bw0 bg-purple-to-pink br-pill white" type="submit" value="Setup Apointment">
     </form>
 
-    <p>Or feel free to call her at <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
+    <p>Or feel free to call her at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
     {% if site.email %}
-    <p>Or Email at <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="mailto:{{ site.email }}">{{ site.email }}</a> </p>
+    <p>Or Email at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="mailto:{{ site.email }}">{{ site.email }}</a> </p>
     {% endif %}
     {% if site.facebook_username %} 
     <p> Or message her on 
-      <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="https://facebook.com/{{site.facebook_username}}" title="facebook username">
+      <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="https://facebook.com/{{site.facebook_username}}" title="facebook username">
         Facebook
       </a>
       {% endif %}

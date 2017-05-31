@@ -1,14 +1,14 @@
 ---
 title: Birth & Women's Health
 permalink: "/birth-and-womens-health/"
-layout: default
+layout: page
 ---
 
-_This practice is founded on the principle of choice for women; choice about their births, and about their health._
+This practice is founded on the principle of choice for women; choice about their births, and about their health.
 
-_We believe that as we teach and support all our clients, throughout their lifespan, they also will make healthy and educated choices about their own health care.._
+We believe that as we teach and support all our clients, throughout their lifespan, they also will make healthy and educated choices about their own health care..
 
-_We provide **one-on-one attention** from an experienced Certified Nurse Midwife, committed to protecting your birth and your health._
+We provide **one-on-one attention** from an experienced Certified Nurse Midwife, committed to protecting your birth and your health.
 
 ## Pregnancy and Birth
 

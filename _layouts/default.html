@@ -3,23 +3,28 @@
 
   {% include head.html %}
 
-  <body class="bg-purple-to-pink ph4-ns">
+  <body class="">
 
-    <header class="post-header">
+    <header class="cover bg-left bg-purple-to-pink">
     {% include header.html %}
     </header>
 
-    <article class="bg-white shadow-4 mb4 black-90 post mw7 center serif f4-ns f5 pa4">
-      <div class="tc ph3">
-        <h1 class="f2 f1-l fw2 near-black mb2 mt2 lh-title">
+    <article class="post bg-white mb4 black-90 serif f4-ns f5 pa4">
+      <div class="tc">
+        <h1 class="f2 fw2 near-black mb2 mt4 lh-title ttu tracked baskerville">
           {% if page.title %}
             {{page.title}}
           {% else %}
             {{site.headline}}
           {% endif %}
         </h1>
+        {% unless page.title %}
+          <h1 class="f4 f3-l fw2 mb4 mt2 lh-title i black-50">
+            - {{site.subheadline}} - 
+          </h1>
+        {% endunless %}
       </div>
-      <div class="post-content center measure lh-copy">
+      <div class="post-content center lh-copy">
         {{ content }}
       </div>
     </article>

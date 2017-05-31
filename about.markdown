@@ -1,7 +1,7 @@
 ---
 title: Meet The Midwife
 permalink: "/meet-the-midwife/"
-layout: default
+layout: page
 ---
 
 ![karla-holding-baby-wide.webp](/gentlebirth/uploads/karla-baby-wide.webp)

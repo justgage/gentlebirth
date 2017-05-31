@@ -1,7 +1,7 @@
 ---
 title: Pricing
 permalink: "/pricing/"
-layout: default
+layout: page
 ---
 
 ## Birth Services

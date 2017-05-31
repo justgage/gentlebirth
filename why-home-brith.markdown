@@ -1,7 +1,7 @@
 ---
 title: Why Home Birth
 permalink: "/home-birth/"
-layout: default
+layout: page
 ---
 
 ## Lower chance of catching a disease

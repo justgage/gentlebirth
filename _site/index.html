@@ -6,8 +6,28 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Gentle Birth</title>
+  <title> Gentle Birth and Women&#39;s Health</title>
   <meta name="description" content="At Gentle Birth and Women&#39;s Health we offer natural safe pregnancy and home birth services, and respectful holistic women&#39;s health care. We provide one-on-on...">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href=/gentlebirth/apple-icon-57x57.png>
+  <link rel="apple-touch-icon" sizes="60x60" href=/gentlebirth/apple-icon-60x60.png>
+  <link rel="apple-touch-icon" sizes="72x72" href=/gentlebirth/apple-icon-72x72.png>
+  <link rel="apple-touch-icon" sizes="76x76" href=/gentlebirth/apple-icon-76x76.png>
+  <link rel="apple-touch-icon" sizes="114x114" href=/gentlebirth/apple-icon-114x114.png>
+  <link rel="apple-touch-icon" sizes="120x120" href=/gentlebirth/apple-icon-120x120.png>
+  <link rel="apple-touch-icon" sizes="144x144" href=/gentlebirth/apple-icon-144x144.png>
+  <link rel="apple-touch-icon" sizes="152x152" href=/gentlebirth/apple-icon-152x152.png>
+  <link rel="apple-touch-icon" sizes="180x180" href=/gentlebirth/apple-icon-180x180.png>
+  <link rel="icon" type="image/png" sizes="192x192"  href=/gentlebirth/android-icon-192x192.png>
+  <link rel="icon" type="image/png" sizes="32x32" href=/gentlebirth/favicon-32x32.png>
+  <link rel="icon" type="image/png" sizes="96x96" href=/gentlebirth/favicon-96x96.png>
+  <link rel="icon" type="image/png" sizes="16x16" href=/gentlebirth/favicon-16x16.png>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- END favicon -->
 
   <link rel="stylesheet" href="/gentlebirth/assets/main.css">
   <link rel="canonical" href="http://localhost:4000/gentlebirth/">
@@ -17,28 +37,28 @@
 </head>
 
 
-  <body class="bg-purple-to-pink">
+  <body class="">
 
-    <header class="cover bg-left bg-center-l">
+    <header class="cover bg-left bg-purple-to-pink">
     <header class="serif" id="header">
-    <div class="mw7 center">
+    <div class="mw7 center pv3 pv0-ns">
       <!-- hamburger -->
-      <a class="pointer link dn-ns f1 pa2 white absolute right-1 top-0" @click="toggleMenu">
+      <a class="pointer link dn-ns f1 pa2 white absolute right-1 top-0 dim" @click="toggleMenu">
         &equiv;
       </a>
-      <nav class="w-100 mw8 center">
-      <div class="pt3 flex flex-column flex-row-ns items-center justify-between w-100 mb4">
+      <nav class="w-100 mw8 center border-box ">
+      <div class="pt3 ph4-m mb4 flex flex-column flex-row-ns items-center justify-between w-100 border-box ">
         <div class="tr-ns tc i flex flex-column flex-row-ns items-center">
-        <a href="/gentlebirth/" class="f6 fw4 hover-black no-underline black-70 dib-ns pv2 ph3">
+        <a href="/gentlebirth/" class="no-underline white-90 dim flex flex-column items-center flex-row-ns">
           <img v-show="!menuOpen" src="/gentlebirth/assets/images/logo.png" alt="Gentle Birth"/>
-        </a>
-        <div>
-          <h1 class="mb0 white-90">Gentle Birth</h1>
-          <h2 class="f5 mv0 white-60 fw1">and Women's Health</h2>
-        </div>
+			 <div class="ml2">
+				<h1 class="mb0 ">Gentle Birth</h1>
+				<h2 class="f5 mv0 white-60 fw1">and Women's Health</h2>
+			 </div>
+		  </a>
         </div>
         <div class="mt3 mt0-ns">
-          <a class="white br1 ba fr pa2 link hover-bg-white hover-pink" href="#contact-me">Contact Info &#x25BE;</a>
+          <a class="white br1 ba fr pa2 link hover-bg-white hover-pink" href="#contact-me">Make an Appointment</a>
         </div>
       </div>
       <div 
@@ -99,7 +119,7 @@
           mh2-l
           mv2
           "
-          href="/gentlebirth/home-birth/">
+          href="/gentlebirth/faq/">
           FAQ
         </a>
         
@@ -205,42 +225,50 @@
 
     </header>
 
-    <article class="bg-white shadow-4 mb4 black-90 post mw8 center serif f4-ns f5 pa4">
-      <div class="tc ph3">
-        <h1 class="f2 f1-l fw2 near-black mb2 mt2 lh-title">
+    <article class="post bg-white mb4 black-90 serif f4-ns f5 pa4">
+      <div class="tc">
+        <h1 class="f2 fw2 near-black mb2 mt4 lh-title ttu tracked baskerville">
           
             The Miracle of Birth
           
         </h1>
+        
+          <h1 class="f4 f3-l fw2 mb4 mt2 lh-title i black-50">
+            - from the Comfort of Home - 
+          </h1>
+        
       </div>
       <div class="post-content center lh-copy">
         <section class="center">
 <img src="/gentlebirth/assets/happy-mom-picture.webp"
-     class="w-100 db pa2 ba b--light-gray border-box shadow-4" alt="">
+     class="w-100 db" alt="">
 
-     <div class="f3 lh-copy mt4 measure-narrow center i">
+     <p class="f3 lh-copy mt4 measure-narrow center i">
        At Gentle Birth and Women's Health we offer natural safe pregnancy and home 
-       birth services, and respectful holistic women's health care. We provide one 
+       birth services, and respectful holistic women's health care. 
+     </p>
+     <p class="f3 lh-copy mt4 measure-narrow center i">
+       We provide one 
        to one attention from an experienced Certified Nurse Midwife, committed  to 
        protecting your birth and your health.
-     </div>
+     </p>
 
-  <h2 class="black-70 mt5 mb3 f2-ns f3 tc">Birth Stories</h2>
+  <h2 class="black-70 mt5 mb3 f5 f3-ns tc">Birth Stories</h2>
   
-    <article class="pv4-ns pv2 pl4 pr4 b--truncateblack-10 measure center">
+    <article class="pv4-ns pv2 ph4-ns b--truncateblack-10 measure center">
       <div class="">
         <div class="">
           <p class="f6 lh-copy gray mv0 fr dib pt1">
             <time>Feb 19, 2017</time>
           </p>
-          <h3 class="f4 i mt0 lh-title">Ruth N.</h1>
+          <h3 class="i mt0 lh-title">Ruth N.</h1>
           <a href="/gentlebirth/2017/02/19/ruth/" class="black-70  link">
-            <div class="f4 lh-copy measure">
+            <div class="lh-copy measure">
               <p>Karla Bennett was a wonderful midwife! She is very calm and confident with what she does and <strong>I felt that I could completely trust her judgment.</strong> I never felt like she was pushy at all and only gave me constant encouragement and reassurance that I could complete the amazing journey of pregnancy and childbirth. This is such a vulnerable time for mom and having someone who takes the time to listen and help you feel secure is invaluable! Karla truly felt like a friend who was excited about and invested in me and my baby.</p>
 
 
             </div>
-            <div class="dark-gray db underline-hover f5 tracked ttu">
+            <div class="hot-pink dib f5 tracked ttu ba br2 pa2 link">
             read more 
             </div>
           </a>
@@ -250,19 +278,19 @@
       
     </article>
   
-    <article class="pv4-ns pv2 pl4 pr4 b--truncateblack-10 measure center">
+    <article class="pv4-ns pv2 ph4-ns b--truncateblack-10 measure center">
       <div class="">
         <div class="">
           <p class="f6 lh-copy gray mv0 fr dib pt1">
             <time>Feb 19, 2017</time>
           </p>
-          <h3 class="f4 i mt0 lh-title">Joclynn K.</h1>
+          <h3 class="i mt0 lh-title">Joclynn K.</h1>
           <a href="/gentlebirth/2017/02/19/joclynn/" class="black-70  link">
-            <div class="f4 lh-copy measure">
+            <div class="lh-copy measure">
               <p>I recently gave birth to my first baby with Karla as my midwife. She was professional but also very personal, <strong>going above and beyond the standard of care most women receive during pregnancy</strong>. I had such a positive and comfortable experience and I know it was all because of her exceptional care. My labor was smooth and full of positive vibes. I will definitely go to her again!</p>
 
             </div>
-            <div class="dark-gray db underline-hover f5 tracked ttu">
+            <div class="hot-pink dib f5 tracked ttu ba br2 pa2 link">
             read more 
             </div>
           </a>
@@ -279,10 +307,11 @@
       </div>
     </article>
 
-    <footer class="pv4 ph3 ph5-ns tc serif white-80">
+    <footer class="pv4 ph3 ph5-ns tc serif black-80" id="contact-me" >
+  <h4 class="f2 mv3 black-60 ttu tracked baskerville">Make an Apointment</h4>
   <div class="measure center">
-    <a href="/meet-the-midwife/" class="link white-90 underline-hover" alt="meet the midwife">
-      <img class="pa1 ba b--white-10 h4 w4 bg-white" id="contact-me" src="/gentlebirth/assets/karla-avatar-baby.jpg" alt="picture of Karla" />
+    <a href="/meet-the-midwife/" class="link black-90 underline-hover" alt="meet the midwife">
+      <img class="pa1 ba b--black-10 h4 w4 bg-white" src="/gentlebirth/assets/karla-avatar-baby.jpg" alt="picture of Karla" />
       <h4 class="f3 mv3" >Meet with Karla</h4>
       <p class="i mv2">Karla Jo Bennett - Certified Nurse Midwife</p>
     </a>
@@ -292,16 +321,16 @@
       <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Your Phone Number" type="phone-number" name="phone">
       <textarea class="input-reset br3 ba b--light-gray mt3 pa2 h4" placeholder="When can we meet? Any questions you have" type="phone-number" name="description"></textarea>
       <p class="mv3 pv0">She usually answers within 24 hours.</p>
-      <input class="pa3 tracked ttu grow bw0 bg-hot-pink br-pill white" type="submit" value="Setup Apointment">
+      <input class="pa3 tracked ttu grow bw0 bg-purple-to-pink br-pill white" type="submit" value="Setup Apointment">
     </form>
 
-    <p>Or feel free to call her at <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
+    <p>Or feel free to call her at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
     
-    <p>Or Email at <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="mailto: UtahGentleBirthMidwife@gmail.com"> UtahGentleBirthMidwife@gmail.com</a> </p>
+    <p>Or Email at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="mailto: UtahGentleBirthMidwife@gmail.com"> UtahGentleBirthMidwife@gmail.com</a> </p>
     
      
     <p> Or message her on 
-      <a class="pointer bb link dim white-80 dib mr3 mr4-ns mv2" href="https://facebook.com/gentlebirthandwomenshealth" title="facebook username">
+      <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="https://facebook.com/gentlebirthandwomenshealth" title="facebook username">
         Facebook
       </a>
       
