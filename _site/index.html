@@ -255,7 +255,7 @@
 
   <h2 class="black-70 mt5 mb3 f5 f3-ns tc">Birth Stories</h2>
   
-    <article class="pv4-ns pv2 ph4-ns b--truncateblack-10 measure center">
+    <article class="pv5-ns pv2 ph4-ns b--truncateblack-10 measure center">
       <div class="">
         <div class="">
           <p class="f6 lh-copy gray mv0 fr dib pt1">
@@ -278,7 +278,7 @@
       
     </article>
   
-    <article class="pv4-ns pv2 ph4-ns b--truncateblack-10 measure center">
+    <article class="pv5-ns pv2 ph4-ns b--truncateblack-10 measure center">
       <div class="">
         <div class="">
           <p class="f6 lh-copy gray mv0 fr dib pt1">
@@ -316,10 +316,14 @@
       <p class="i mv2">Karla Jo Bennett - Certified Nurse Midwife</p>
     </a>
     <form action="https://formspree.io/justgage@gmail.com" method="POST" class="flex flex-column">
-      <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Name" type="text" name="name">
-      <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Your Email" type="email" name="_replyto">
-      <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Your Phone Number" type="phone-number" name="phone">
-      <textarea class="input-reset br3 ba b--light-gray mt3 pa2 h4" placeholder="When can we meet? Any questions you have" type="phone-number" name="description"></textarea>
+      <label class="mt3 db tl" for="name">Name</label>
+      <input id="name" class="input-reset br3 ba b--light-gray mt2 pa2" placeholder="Name" type="text" name="name">
+      <label class="mt3 db tl" for="_replyto">Email</label>
+      <input id="_replyto" class="input-reset br3 ba b--light-gray mt2 pa2" placeholder="Your Email" type="email" name="_replyto">
+      <label class="mt3 db tl" for="phone">Phone</label>
+      <input id="phone" class="input-reset br3 ba b--light-gray mt2 pa2" placeholder="Your Phone Number" type="phone-number" name="phone">
+      <label class="mt3 db tl" for="description">Description</label>
+      <textarea id="description" class="input-reset br3 ba b--light-gray mt2 pa2 h4" placeholder="When can we meet? Any questions you have" type="phone-number" name="description"></textarea>
       <p class="mv3 pv0">She usually answers within 24 hours.</p>
       <input class="pa3 tracked ttu grow bw0 bg-purple-to-pink br-pill white" type="submit" value="Setup Apointment">
     </form>
