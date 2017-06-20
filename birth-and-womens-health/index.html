@@ -10,23 +10,23 @@
   <meta name="description" content="At Gentle Birth and Women&#39;s Health we offer natural safe pregnancy and home birth services, and respectful holistic women&#39;s health care. We provide one-on-on...">
 
   <!-- favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href=/gentlebirth/apple-icon-57x57.png>
-  <link rel="apple-touch-icon" sizes="60x60" href=/gentlebirth/apple-icon-60x60.png>
-  <link rel="apple-touch-icon" sizes="72x72" href=/gentlebirth/apple-icon-72x72.png>
-  <link rel="apple-touch-icon" sizes="76x76" href=/gentlebirth/apple-icon-76x76.png>
-  <link rel="apple-touch-icon" sizes="114x114" href=/gentlebirth/apple-icon-114x114.png>
-  <link rel="apple-touch-icon" sizes="120x120" href=/gentlebirth/apple-icon-120x120.png>
-  <link rel="apple-touch-icon" sizes="144x144" href=/gentlebirth/apple-icon-144x144.png>
-  <link rel="apple-touch-icon" sizes="152x152" href=/gentlebirth/apple-icon-152x152.png>
-  <link rel="apple-touch-icon" sizes="180x180" href=/gentlebirth/apple-icon-180x180.png>
-  <link rel="icon" type="image/png" sizes="192x192"  href=/gentlebirth/android-icon-192x192.png>
-  <link rel="icon" type="image/png" sizes="32x32" href=/gentlebirth/favicon-32x32.png>
-  <link rel="icon" type="image/png" sizes="96x96" href=/gentlebirth/favicon-96x96.png>
-  <link rel="icon" type="image/png" sizes="16x16" href=/gentlebirth/favicon-16x16.png>
-  <link rel="manifest" href="/manifest.json">
+  <link rel="apple-touch-icon" sizes="57x57" href=/gentlebirth/assets/apple-icon-57x57.png>
+  <link rel="apple-touch-icon" sizes="60x60" href=/gentlebirth/assets/apple-icon-60x60.png>
+  <link rel="apple-touch-icon" sizes="72x72" href=/gentlebirth/assets/apple-icon-72x72.png>
+  <link rel="apple-touch-icon" sizes="76x76" href=/gentlebirth/assets/apple-icon-76x76.png>
+  <link rel="apple-touch-icon" sizes="114x114" href=/gentlebirth/assets/apple-icon-114x114.png>
+  <link rel="apple-touch-icon" sizes="120x120" href=/gentlebirth/assets/apple-icon-120x120.png>
+  <link rel="apple-touch-icon" sizes="144x144" href=/gentlebirth/assets/apple-icon-144x144.png>
+  <link rel="apple-touch-icon" sizes="152x152" href=/gentlebirth/assets/apple-icon-152x152.png>
+  <link rel="apple-touch-icon" sizes="180x180" href=/gentlebirth/assets/apple-icon-180x180.png>
+  <link rel="icon" type="image/png" sizes="192x192"  href=/gentlebirth/assets/android-icon-192x192.png>
+  <link rel="icon" type="image/png" sizes="32x32" href=/gentlebirth/assets/favicon-32x32.png>
+  <link rel="icon" type="image/png" sizes="96x96" href=/gentlebirth/assets/favicon-96x96.png>
+  <link rel="icon" type="image/png" sizes="16x16" href=/gentlebirth/assets/favicon-16x16.png>
+  <link rel="manifest" href="/gentlebirth/manifest.json>
   <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/gentlebirth/ms-icon-144x144.png">
+  <meta name="theme-color" content="#a069a0">
   <!-- END favicon -->
 
   <link rel="stylesheet" href="/gentlebirth/assets/main.css">
@@ -39,7 +39,7 @@
 
   <body class="">
 
-    <header class="cover bg-left bg-purple-to-pink">
+    <header class="cover bg-left bg-purple">
     <header class="serif" id="header">
     <div class="mw7 center pv3 pv0-ns">
       <!-- hamburger -->
@@ -58,7 +58,7 @@
 		  </a>
         </div>
         <div class="mt3 mt0-ns">
-          <a class="white br1 ba fr pa2 link hover-bg-white hover-pink" href="#contact-me">Make an Appointment</a>
+          <a class="white br1 ba fr pa2 link hover-bg-white hover-purple" href="#contact-me">Make an Appointment</a>
         </div>
       </div>
       <div 
@@ -270,18 +270,22 @@
     </article>
 
     <footer class="pv4 ph3 ph5-ns tc serif black-80" id="contact-me" >
-  <h4 class="f2 mv3 black-60 ttu tracked baskerville">Make an Apointment</h4>
+  <h4 class="f2 mv3 fw2 black-60 ttu tracked baskerville">Make an Apointment</h4>
   <div class="measure center">
-    <a href="/meet-the-midwife/" class="link black-90 underline-hover" alt="meet the midwife">
+    <a href="/gentlebirth/meet-the-midwife/" class="link black-70 underline-hover" alt="meet the midwife">
       <img class="pa1 ba b--black-10 h4 w4 bg-white" src="/gentlebirth/assets/karla-avatar-baby.jpg" alt="picture of Karla" />
       <h4 class="f3 mv3" >Meet with Karla</h4>
       <p class="i mv2">Karla Jo Bennett - Certified Nurse Midwife</p>
     </a>
     <form action="https://formspree.io/justgage@gmail.com" method="POST" class="flex flex-column">
-      <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Name" type="text" name="name">
-      <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Your Email" type="email" name="_replyto">
-      <input class="input-reset br3 ba b--light-gray mt3 pa2" placeholder="Your Phone Number" type="phone-number" name="phone">
-      <textarea class="input-reset br3 ba b--light-gray mt3 pa2 h4" placeholder="When can we meet? Any questions you have" type="phone-number" name="description"></textarea>
+      <label class="mt3 db tl" for="name">Name</label>
+      <input id="name" class="input-reset br3 ba b--light-gray mt2 pa2" placeholder="Mommy / Daddy" type="text" name="name">
+      <label class="mt3 db tl" for="_replyto">Email</label>
+      <input id="_replyto" class="input-reset br3 ba b--light-gray mt2 pa2" placeholder="babyBump@email.com" type="email" name="_replyto">
+      <label class="mt3 db tl" for="phone">Phone</label>
+      <input id="phone" class="input-reset br3 ba b--light-gray mt2 pa2" placeholder="(801) 123-4567" type="phone-number" name="phone">
+      <label class="mt3 db tl" for="description">Description</label>
+      <textarea id="description" class="input-reset br3 ba b--light-gray mt2 pa2 h4" placeholder="When can we meet? Any questions you have" type="phone-number" name="description"></textarea>
       <p class="mv3 pv0">She usually answers within 24 hours.</p>
       <input class="pa3 tracked ttu grow bw0 bg-purple-to-pink br-pill white" type="submit" value="Setup Apointment">
     </form>
