@@ -1,6 +1,8 @@
 ---
 title: Women's Services
 date: '2017-06-20T06:09:24+00:00'
+permalink: womens-services
+layout: ''
 ---
 ### Gynecology and Well woman
 
