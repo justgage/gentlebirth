@@ -103,6 +103,8 @@ GEM
       activesupport (~> 4.0)
       html-pipeline (~> 2.3)
       jekyll (~> 3.0)
+    jekyll-menus (0.5.0)
+      jekyll (~> 3.1)
     jekyll-optional-front-matter (0.1.2)
       jekyll (~> 3.0)
     jekyll-paginate (1.1.0)
@@ -198,10 +200,11 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-feed
+  jekyll-menus
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.4.0p0
+   ruby 2.1.5p273
 
 BUNDLED WITH
    1.14.6

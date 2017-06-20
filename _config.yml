@@ -29,6 +29,7 @@ authors:
 markdown: kramdown
 gems:
 - jekyll-feed
+- jekyll-menus
 include:
 - _pages
 exclude:
