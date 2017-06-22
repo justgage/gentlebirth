@@ -2,7 +2,7 @@
 title: Women's Services
 date: 2017-06-20 00:09:24 -06:00
 permalink: womens-services
-layout: ''
+layout: 'page'
 ---
 
 ## Gynecology and Well woman
