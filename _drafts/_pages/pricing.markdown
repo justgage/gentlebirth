@@ -1,5 +1,6 @@
 ---
 title: Pricing
+date: 2017-06-21 20:05:20.440000000 -06:00
 permalink: "/pricing/"
 layout: page
 ---

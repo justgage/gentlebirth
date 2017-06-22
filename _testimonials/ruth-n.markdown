@@ -1,6 +1,6 @@
 ---
 title: Ruth N
-date: '2017-05-10T03:45:00.000+00:00'
+date: 2017-05-09 21:45:00 -06:00
 client_name: Ruth N
 header_image: ''
 ---

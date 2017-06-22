@@ -1,9 +1,10 @@
 ---
 title: Women's Services
-date: '2017-06-20T06:09:24+00:00'
+date: 2017-06-20 00:09:24 -06:00
 permalink: womens-services
 layout: ''
 ---
+
 ## Gynecology and Well woman
 
 Because of our commitment to the concept of respectful holistic care, we offer many necessary women's health services such as yearly exams, premarital and pre-pregnancy counseling, contraception options, menopause and hormone balancing.

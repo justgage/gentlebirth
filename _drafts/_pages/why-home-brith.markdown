@@ -1,5 +1,6 @@
 ---
 title: Why Home Birth
+date: 2017-06-21 20:05:20.474000000 -06:00
 permalink: "/home-birth/"
 layout: page
 ---

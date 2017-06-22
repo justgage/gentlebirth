@@ -3,6 +3,7 @@ title: Home Birth
 permalink: "/homebirth/"
 layout: page
 ---
+
 This practice is founded on the principle of choice for women; choice about their births, and about their health.
 
 We believe that as we teach and support all our clients, throughout their lifespan, they also will make healthy and educated choices about their own health care..
