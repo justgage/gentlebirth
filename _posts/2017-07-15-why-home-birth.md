@@ -1,8 +1,8 @@
 ---
 title: Why Home Birth
-date: 2017-06-21 20:05:20.474000000 -06:00
-permalink: "/home-birth/"
-layout: page
+date: 2017-07-15
+permalink: "/why-home-birth"
+layout: post
 ---
 
 Many times it seems like the choices about home birth can be confusing and hard to understand. Why would somone willingly go outside of a hospital? In this blog post we'll look into just that!
@@ -13,3 +13,4 @@ Isn't it odd that the place we choose to have a helpless baby with a vulnerable 
 
 ## More choices 
 
+...
