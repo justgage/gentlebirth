@@ -1,13 +1,11 @@
 ---
 title: Women's Services
-date: 2017-06-20 00:09:24 -06:00
-permalink: womens-services
-layout: 'page'
+permalink: "/women-s-services"
+layout: page
 ---
 
 ## Gynecology and Well woman
-
-Because of our commitment to the concept of respectful holistic care, we offer many necessary women's health services such as yearly exams, premarital and pre-pregnancy counseling, contraception options, menopause and hormone balancing.
+Because of our commitment to the concept of respectful holistic care, we offer many necessary women’s health services such as yearly exams, premarital and pre-pregnancy counseling, contraception options, menopause and hormone balancing.
 
 ## Menopause, Perimenopause, and Hormone Balancing
 
@@ -19,4 +17,4 @@ Most of us know how important good nutrition and maintaining an optimal weight i
 
 ## Pricing
 
-Our Women's services are priced to be affordable. The cost for a basic visit is $75 for a 30 minute visit. Lab work, pap tests and other needed testing are additional, but are also very reasonable.
+Our Women’s services are priced to be affordable. The cost for a basic visit is $75 for a 30 minute visit. Lab work, pap tests and other needed testing are additional, but are also very reasonable.

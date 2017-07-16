@@ -1,6 +1,6 @@
 ---
-title: Meet The Midwife
-permalink: "/meet-the-midwife/"
+title: Meet the Midwife
+permalink: "/meet-the-midwife"
 layout: page
 ---
 

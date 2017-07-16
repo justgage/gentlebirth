@@ -1,6 +1,6 @@
 ---
 title: Home Birth
-permalink: "/homebirth/"
+permalink: "/home-birth"
 layout: page
 ---
 
