@@ -39,191 +39,192 @@
 
   <body class="">
 
-    <header class="cover bg-left bg-purple">
-    <header class="serif" id="header">
-    <div class="mw7 center pv3 pv0-ns">
-      <!-- hamburger -->
-      <a class="pointer link dn-ns f1 pa2 white absolute right-1 top-0 dim" @click="toggleMenu">
-        &equiv;
-      </a>
-      <nav class="w-100 mw8 center border-box ">
-      <div class="pt3 ph4-m mb4 flex flex-column flex-row-ns items-center justify-between w-100 border-box ">
-        <div class="tr-ns tc i flex flex-column flex-row-ns items-center">
+    <header class="cover bg-center" style="
+  background-image: url('/gentlebirth//assets/happy-mom-picture.webp');
+  ">
+  <div class="serif bg-purple o-90 pt5" id="header">
+  <div class="mw7 center pv3 pv0-ns">
+    <!-- hamburger -->
+    <a class="pointer link dn-ns f1 pa2 white absolute right-1 top-0 dim" @click="toggleMenu">
+      &equiv;
+    </a>
+    <nav class="w-100 mw8 center border-box ">
+    <div class="pt3 ph4-m mb4 flex flex-column flex-row-ns items-center justify-between w-100 border-box ">
+      <div class="tr-ns tc i flex flex-column flex-row-ns items-center">
         <a href="/gentlebirth//" class="no-underline white-90 dim flex flex-column items-center flex-row-ns">
           <img v-show="!menuOpen" src="/gentlebirth//assets/images/logo.png" alt="Gentle Birth"/>
-			 <div class="ml2">
-				<h1 class="mb0 ">Gentle Birth</h1>
-				<h2 class="f5 mv0 white-60 fw1">and women's health</h2>
-			 </div>
-		  </a>
-        </div>
-        <div class="mt3 mt0-ns">
-          <a class="white br1 ba fr pa2 link hover-bg-white hover-purple" href="#contact-me">Make an Appointment</a>
-        </div>
+          <div class="ml2">
+            <h1 class="mb0 ">Gentle Birth</h1>
+            <h2 class="f5 mv0 white-60 fw1">and women's health</h2>
+          </div>
+        </a>
       </div>
-      <div 
-        id="tabs"
-        class="dn flex-ns flex-column flex-row-ns w-100 tc pv2 pv0-ns pt3-ns ph4 ph0-ns justify-center"
-        v-bind:class="{ flex: menuOpen }" 
-        >
-        
-        
-        
-        <a class="f5
-          fw4
-          br-pill
-          br2-ns
-          db
-          br--top-ns
-          bg-animate
-          
-            bg-white-50
-          
-          hover-bg-white-90
-          link
-          black-70
-          dib-ns
-          pv3
-          pv2-ns
-          ph3
-          mv0-ns
-          mh1-m
-          mh2-l
-          mv2
-          "
-          href="/gentlebirth//meet-the-midwife/">
-          Meet The Midwife
-        </a>
-        
-        
-        
-        <a class="f5
-          fw4
-          br-pill
-          br2-ns
-          db
-          br--top-ns
-          bg-animate
-          
-            bg-white-50
-          
-          hover-bg-white-90
-          link
-          black-70
-          dib-ns
-          pv3
-          pv2-ns
-          ph3
-          mv0-ns
-          mh1-m
-          mh2-l
-          mv2
-          "
-          href="/gentlebirth//blog/">
-          Blog
-        </a>
-        
-        
-        
-        <a class="f5
-          fw4
-          br-pill
-          br2-ns
-          db
-          br--top-ns
-          bg-animate
-          
-            bg-white-50
-          
-          hover-bg-white-90
-          link
-          black-70
-          dib-ns
-          pv3
-          pv2-ns
-          ph3
-          mv0-ns
-          mh1-m
-          mh2-l
-          mv2
-          "
-          href="/gentlebirth//faq/">
-          FAQ
-        </a>
-        
-        
-        
-        
-        
-        
-        
-        <a class="f5
-          fw4
-          br-pill
-          br2-ns
-          db
-          br--top-ns
-          bg-animate
-          
-            bg-white-50
-          
-          hover-bg-white-90
-          link
-          black-70
-          dib-ns
-          pv3
-          pv2-ns
-          ph3
-          mv0-ns
-          mh1-m
-          mh2-l
-          mv2
-          "
-          href="/gentlebirth//womens-services">
-          Women&#39;s Services
-        </a>
-        
-        
-        
-        <a class="f5
-          fw4
-          br-pill
-          br2-ns
-          db
-          br--top-ns
-          bg-animate
-          
-            bg-white
-          
-          hover-bg-white-90
-          link
-          black-70
-          dib-ns
-          pv3
-          pv2-ns
-          ph3
-          mv0-ns
-          mh1-m
-          mh2-l
-          mv2
-          "
-          href="/gentlebirth//homebirth/">
-          Home Birth
-        </a>
-        
-        
-        
-        
-        <!-- <a class="f6 fw4 hover&#45;white no&#45;underline bg&#45;animate hover&#45;bg&#45;dark&#45;gray black&#45;70 db dib&#45;ns ml2 mv mv21 pv2 ph3 ba" href="/" > -->
-          <!--   Make an Appointment -->
-          <!-- </a> -->
+      <div class="mt3 mt0-ns">
+        <a class="white br1 ba fr pa2 link hover-bg-white hover-purple" href="#contact-me">Make an Appointment</a>
       </div>
-      </nav>
     </div>
+    <div 
+      id="tabs"
+      class="dn flex-ns flex-column flex-row-ns w-100 tc pv2 pv0-ns pt3-ns ph4 ph0-ns justify-center"
+      v-bind:class="{ flex: menuOpen }" 
+      >
+      
+      
+      
+      <a class="f5
+        fw4
+        br-pill
+        br2-ns
+        db
+        br--top-ns
+        bg-animate
+        
+        bg-white-50
+        
+        hover-bg-white
+        link
+        black-70
+        dib-ns
+        pv3
+        pv2-ns
+        ph3
+        mv0-ns
+        mh1-m
+        mh2-l
+        mv2
+        "
+        href="/gentlebirth//meet-the-midwife/">
+        Meet The Midwife
+      </a>
+      
+      
+      
+      <a class="f5
+        fw4
+        br-pill
+        br2-ns
+        db
+        br--top-ns
+        bg-animate
+        
+        bg-white-50
+        
+        hover-bg-white
+        link
+        black-70
+        dib-ns
+        pv3
+        pv2-ns
+        ph3
+        mv0-ns
+        mh1-m
+        mh2-l
+        mv2
+        "
+        href="/gentlebirth//blog/">
+        Blog
+      </a>
+      
+      
+      
+      <a class="f5
+        fw4
+        br-pill
+        br2-ns
+        db
+        br--top-ns
+        bg-animate
+        
+        bg-white-50
+        
+        hover-bg-white
+        link
+        black-70
+        dib-ns
+        pv3
+        pv2-ns
+        ph3
+        mv0-ns
+        mh1-m
+        mh2-l
+        mv2
+        "
+        href="/gentlebirth//faq/">
+        FAQ
+      </a>
+      
+      
+      
+      
+      
+      
+      
+      <a class="f5
+        fw4
+        br-pill
+        br2-ns
+        db
+        br--top-ns
+        bg-animate
+        
+        bg-white-50
+        
+        hover-bg-white
+        link
+        black-70
+        dib-ns
+        pv3
+        pv2-ns
+        ph3
+        mv0-ns
+        mh1-m
+        mh2-l
+        mv2
+        "
+        href="/gentlebirth//womens-services">
+        Women&#39;s Services
+      </a>
+      
+      
+      
+      <a class="f5
+        fw4
+        br-pill
+        br2-ns
+        db
+        br--top-ns
+        bg-animate
+        
+        bg-white
+        
+        hover-bg-white
+        link
+        black-70
+        dib-ns
+        pv3
+        pv2-ns
+        ph3
+        mv0-ns
+        mh1-m
+        mh2-l
+        mv2
+        "
+        href="/gentlebirth//homebirth/">
+        Home Birth
+      </a>
+      
+      
+      
+      
+      <!-- <a class="f6 fw4 hover&#45;white no&#45;underline bg&#45;animate hover&#45;bg&#45;dark&#45;gray black&#45;70 db dib&#45;ns ml2 mv mv21 pv2 ph3 ba" href="/" > -->
+        <!--   Make an Appointment -->
+        <!-- </a> -->
+    </div>
+    </nav>
   </div>
+</div>
 </header>
 
-    </header>
 
     <article class="post bg-white mb4 black-90 serif f4-ns f5 pa4">
       <div class="tc">
@@ -235,7 +236,7 @@
         
       </div>
       <div class="post-content center lh-copy">
-        <div class="measure center black-80">
+        <div class="measure center black-80 nested-headline-line-height">
 <p>This practice is founded on the principle of choice for women; choice about their births, and about their health.</p>
 
 <p>We believe that as we teach and support all our clients, throughout their lifespan, they also will make healthy and educated choices about their own health care..</p>

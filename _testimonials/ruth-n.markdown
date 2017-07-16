@@ -3,6 +3,7 @@ title: Ruth N
 date: 2017-05-09 21:45:00 -06:00
 client_name: Ruth N
 header_image: ''
+layout: page
 ---
 
 Karla Bennett was a wonderful midwife! She is very calm and confident with what she does and I felt that I could completely trust her judgement. I never felt like she was pushy at all and only gave me constant encouragement and reassurance that I could complete the amazing journey of pregnancy and childbirth. This is such a vulnerable time for mom and having someone who takes the time to listen and help you feel secure is invaluable! Karla truly felt like a friend who was excited about and invested in me and my baby.

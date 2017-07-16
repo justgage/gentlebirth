@@ -8,6 +8,7 @@ collections:
     output: true
   testimonials:
     title: Testimonials
+    layout: post
     output: true
   uploads:
     title: Uploads

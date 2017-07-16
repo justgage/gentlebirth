@@ -26,6 +26,8 @@
 .nested-headline-line-height h5,
 .nested-headline-line-height h6 {
   line-height: 1.25;
+  font-weight: normal;
+  margin-top: $spacing-extra-large;
 }
 
 .nested-list-reset ul,

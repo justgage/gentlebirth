@@ -1187,7 +1187,7 @@ img {
   border-color: #fbf1a9; }
 
 .b--purple {
-  border-color: #a069a0; }
+  border-color: #7e5074; }
 
 .b--light-purple {
   border-color: #d6c3c6; }
@@ -1196,7 +1196,7 @@ img {
   border-color: #fbc8c8; }
 
 .b--hot-pink {
-  border-color: #e266dc; }
+  border-color: #f494c0; }
 
 .b--pink {
   border-color: #fdb99b; }
@@ -4362,7 +4362,7 @@ code, .code {
   color: #fbf1a9; }
 
 .purple {
-  color: #a069a0; }
+  color: #7e5074; }
 
 .light-purple {
   color: #d6c3c6; }
@@ -4371,7 +4371,7 @@ code, .code {
   color: #fbc8c8; }
 
 .hot-pink {
-  color: #e266dc; }
+  color: #f494c0; }
 
 .pink {
   color: #fdb99b; }
@@ -4531,7 +4531,7 @@ code, .code {
   background-color: #fbf1a9; }
 
 .bg-purple {
-  background-color: #a069a0; }
+  background-color: #7e5074; }
 
 .bg-purple-to-pink {
   background: #a770ef;
@@ -4548,7 +4548,7 @@ code, .code {
   background-color: #fbc8c8; }
 
 .bg-hot-pink {
-  background-color: #e266dc; }
+  background-color: #f494c0; }
 
 .bg-pink {
   background-color: #fdb99b; }
@@ -4866,7 +4866,7 @@ code, .code {
 
 .hover-purple:hover,
 .hover-purple:focus {
-  color: #a069a0; }
+  color: #7e5074; }
 
 .hover-light-purple:hover,
 .hover-light-purple:focus {
@@ -4878,7 +4878,7 @@ code, .code {
 
 .hover-hot-pink:hover,
 .hover-hot-pink:focus {
-  color: #e266dc; }
+  color: #f494c0; }
 
 .hover-pink:hover,
 .hover-pink:focus {
@@ -4966,7 +4966,7 @@ code, .code {
 
 .hover-bg-purple:hover,
 .hover-bg-purple:focus {
-  background-color: #a069a0; }
+  background-color: #7e5074; }
 
 .hover-bg-light-purple:hover,
 .hover-bg-light-purple:focus {
@@ -4978,7 +4978,7 @@ code, .code {
 
 .hover-bg-hot-pink:hover,
 .hover-bg-hot-pink:focus {
-  background-color: #e266dc; }
+  background-color: #f494c0; }
 
 .hover-bg-pink:hover,
 .hover-bg-pink:focus {
@@ -7810,7 +7810,9 @@ code, .code {
 .nested-headline-line-height h4,
 .nested-headline-line-height h5,
 .nested-headline-line-height h6 {
-  line-height: 1.25; }
+  line-height: 1.25;
+  font-weight: normal;
+  margin-top: 4rem; }
 
 .nested-list-reset ul,
 .nested-list-reset ol {
