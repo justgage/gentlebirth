@@ -2,6 +2,64 @@
 title: Meet the Midwife
 permalink: "/meet-the-midwife"
 layout: page
+seo_meta_tags:
+- tag_name: title
+  content: Meet the Midwife- Gentle Birth
+- tag_name: meta
+  attributes:
+    property: og:title
+    content: Meet the Midwife
+- tag_name: meta
+  attributes:
+    name: twitter:title
+    content: Meet the Midwife
+- tag_name: meta
+  attributes:
+    name: description
+    content: Karla has been working in the birth community for many years, first as
+      an RN on a labor and delivery floor for 9 years, then as a Certified Nurse Midwife.
+- tag_name: meta
+  attributes:
+    property: og:description
+    content: Karla has been working in the birth community for many years, first as
+      an RN on a labor and delivery floor for 9 years, then as a Certified Nurse Midwife.
+- tag_name: meta
+  attributes:
+    name: twitter:description
+    content: Karla has been working in the birth community for many years, first as
+      an RN on a labor and delivery floor for 9 years, then as a Certified Nurse Midwife.
+- tag_name: meta
+  attributes:
+    property: og:image
+    content: https://www.datocms-assets.com/2680/1500692284-mother-with-baby.jpg
+- tag_name: meta
+  attributes:
+    name: twitter:image
+    content: https://www.datocms-assets.com/2680/1500692284-mother-with-baby.jpg
+- tag_name: meta
+  attributes:
+    property: og:locale
+    content: en_EN
+- tag_name: meta
+  attributes:
+    property: og:type
+    content: article
+- tag_name: meta
+  attributes:
+    property: og:site_name
+    content: Gentle Birth & Women's Health
+- tag_name: meta
+  attributes:
+    property: article:modified_time
+    content: '2017-07-16T05:04:10Z'
+- tag_name: meta
+  attributes:
+    property: article:publisher
+    content: https://www.facebook.com/gentlebirthandwomenshealth/
+- tag_name: meta
+  attributes:
+    name: twitter:card
+    content: summary
 ---
 
 ![karla-holding-baby-wide.webp](/gentlebirth/uploads/karla-baby-wide.webp)

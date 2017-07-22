@@ -1,3 +1,9 @@
+create_data_file(
+  "_data/settings.yml", 
+  :yaml,
+  favicon_meta_tags: dato.site.favicon_meta_tags
+)
+
 # inside a "_posts" directory...
 directory "_posts" do
 
@@ -11,7 +17,8 @@ directory "_posts" do
         title: article.title,
         date: article.date || article.updated_at,
         permalink: "/#{article.slug}",
-        layout: "post"
+        layout: "post",
+        seo_meta_tags: article.seo_meta_tags
       )
 
       content(article.content)
@@ -31,7 +38,8 @@ directory "_pages" do
         :yaml,
         title: page.title,
         permalink: "/#{page.slug}",
-        layout: "page"
+        layout: "page",
+        seo_meta_tags: page.seo_meta_tags
       )
 
       content(page.content)
