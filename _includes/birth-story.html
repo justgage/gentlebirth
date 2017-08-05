@@ -1,0 +1,21 @@
+{% assign post = include.post %}
+<article class="pb5 ph4-ns b--truncateblack-10 measure center">
+  <div class="">
+    <div class="">
+      <p class="f6 lh-copy gray mv0 fr dib pt1">
+        <time>{{ post.date | date: "%b %-d, %Y" }}</time>
+      </p>
+      <h3 class="i mt0 lh-title">{{ post.name | escape }}</h1>
+      <a href="{{ post.slug | relative_url }}" class="black-70  link">
+        <div class="mv4 lh-copy measure">
+          {{ post.excerpt }}
+        </div>
+        <div class="purple hover-white hover-bg-purple dib f5 tracked ttu ba br2 pv2 ph3 link">
+        read more
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- Look the author details up from the site config. -->
+  {% assign author = site.authors[post.author] %}
+</article>

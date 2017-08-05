@@ -51,7 +51,7 @@ seo_meta_tags:
 - tag_name: meta
   attributes:
     property: article:modified_time
-    content: '2017-08-05T04:42:57Z'
+    content: '2017-08-05T21:02:42Z'
 - tag_name: meta
   attributes:
     property: article:publisher
@@ -89,7 +89,6 @@ body:
   quote: I firmly believe in a woman’s right to choose her provider and the manner
     in which she gives birth, knowing that if a woman is given education and support
     she will choose what is best for her and her family.
-  author: 
 - id: '85078'
   item_type: text
   updated_at: 2017-08-05 04:42:56.193000000 Z
@@ -116,5 +115,47 @@ body:
   text: |-
     <p>As a CNM I can prescribe medication, if it&rsquo;s needed, but most often find that herbs or other alternative modalities can take care of many common conditions.</p>
     <p>I also educate women about their bodies throughout their lifespan, promoting good health and nutrition. I am licensed as a Certified Nurse Midwife and educated as a Women&rsquo;s Health Nurse Practitioner.</p>
+- id: '85090'
+  item_type: testimonial_link
+  updated_at: 2017-08-05 21:02:40.046000000 Z
+  testimonial:
+    id: '80308'
+    item_type: testimonial
+    updated_at: 2017-08-05 21:09:09.002000000 Z
+    position: 1
+    name: Ruth N.
+    picture: 
+    excerpt: I never felt like she was pushy at all and only gave me constant encouragement
+      and reassurance that I could complete the amazing journey of pregnancy and childbirth.
+    content: |-
+      Karla Bennett was a wonderful midwife! She is very calm and confident with what she does and I felt that I could completely trust her judgment. I never felt like she was pushy at all and only gave me constant encouragement and reassurance that I could complete the amazing journey of pregnancy and childbirth. This is such a vulnerable time for mom and having someone who takes the time to listen and help you feel secure is invaluable! Karla truly felt like a friend who was excited about and invested in me and my baby.
+
+      I also felt that I could really trust Karla as a midwife with her eight years previous experience as a labor and delivery nurse. I imagine she has seen almost every birth scenario there is. Strangely enough after finding Karla online as a potential midwife I recognized her right away. She was the nurse 6 years ago that helped me when I was in labor with my son at the local hospital! I loved her then and love her now as my midwife. Thanks Karla for you true gift of caring about others and guiding them on this special journey.
+    date: 
+    slug: ruth-n
+    seo: 
+- id: '85091'
+  item_type: testimonial_link
+  updated_at: 2017-08-05 21:02:40.269000000 Z
+  testimonial:
+    id: '82394'
+    item_type: testimonial
+    updated_at: 2017-08-05 21:09:26.384000000 Z
+    position: 2
+    name: Joclynn K
+    picture: 
+    excerpt: "...beyond the standard of care most women receive during pregnancy."
+    content: I recently gave birth to my first baby with Karla as my midwife.She was
+      professional but also very personal, going above and beyond the standard of
+      care most women receive during pregnancy. I had such a positive and comfortable
+      experience and I know it was all because of her exceptional care. My labor was
+      smooth and full of positive vibes. I will definitely go to her again!
+    date: 2016-07-22
+    slug: joclynn-k
+    seo:
+      title: Jocelyn K. testimonial
+      description: Karla was professional but also very personal, going above and
+        beyond the standard of care most women receive during pregnancy
+      image: 
 ---
 

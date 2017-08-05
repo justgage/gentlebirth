@@ -8,6 +8,9 @@ layout: default
          <div>
             {{ record.text }}
          </div>
+      {% elsif record.item_type == "testimonial_link" %}
+         <br class="cb" />
+         {% include birth-story.html post=record.testimonial %}
       {% elsif record.item_type == "quote" %}
          <blockquote class="measure-narrow center athelas bb bt b--gray mh0 mv5 pv3 ph0 f3 f2-ns ">
             {{ record.quote }}
