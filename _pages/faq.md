@@ -54,7 +54,7 @@ seo_meta_tags:
 - tag_name: meta
   attributes:
     property: article:modified_time
-    content: '2017-07-13T02:40:30Z'
+    content: '2017-08-01T01:10:46Z'
 - tag_name: meta
   attributes:
     property: article:publisher
@@ -63,6 +63,6 @@ seo_meta_tags:
   attributes:
     name: twitter:card
     content: summary
+body: []
 ---
 
-To be written

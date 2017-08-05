@@ -2,6 +2,36 @@
 layout: default
 ---
 
-<div class="measure center black-80 nested-headline-line-height">
-{{ content }}
-<div>
+<div class="measure-wide center black-80 nested-headline-line-height">
+   {% for record in page.body %}
+      {% if record.item_type == "text" %}
+         <div>
+            {{ record.text }}
+         </div>
+      {% elsif record.item_type == "quote" %}
+         <blockquote class="measure-narrow center athelas bb bt b--gray mh0 mv5 pv3 ph0 f3 f2-ns ">
+            {{ record.quote }}
+         </blockquote>
+      {% elsif record.item_type == "image" %}
+         {% assign image = record.image %}
+         {% assign left = record.space_on_left %}
+         {% assign right = record.space_on_right %}
+         {% if left and right  %}
+            {% assign class = "db center" %}
+         {% elsif left  %}
+            {% assign class = "fn w-100 w-50-ns fr-ns ml4-ns mb4" %}
+         {% elsif right %}
+            {% assign class = "fn w-100 w-50-ns fl-ns mr4-ns mb4" %}
+         {% else %}
+            {% assign class = "db w-100" %}
+         {% endif %}
+         <div class="{{class}} black-50 link hover-black" >
+            <img class="db w-100" src="{{ image.url }}" alt="{{ image.alt }}" title="{{ image.title }}" />
+            {% if record.caption %}
+               <div class="tc mt2 f6 i">{{ record.caption }}</div>
+            {% endif %}
+         </div>
+      {% endif %}
+   {% endfor %}
+   <br class="cb" />
+</div>
