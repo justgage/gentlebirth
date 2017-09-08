@@ -22,42 +22,32 @@
         <a class="white br1 ba fr pa2 link hover-bg-white hover-purple" href="#contact-me">Make an Appointment</a>
       </div>
     </div>
-    <div 
+    <div
       id="tabs"
       class="dn flex-ns flex-column flex-row-ns w-100 tc pv2 pv0-ns pt3-ns ph4 ph0-ns justify-center"
-      v-bind:class="{ flex: menuOpen }" 
+      v-bind:class="{ flex: menuOpen }"
       >
       {% assign url = page.url %}
-      {% for my_page in site.pages %}
-      {% if my_page.title %}
-      <a class="f5
-        fw4
-        br-pill
-        br2-ns
-        db
-        br--top-ns
-        bg-animate
-        {% if page.url == my_page.url %}
-        bg-white
-        {% else %}
-        bg-white-50
+      {% assign sorted_pages = site.pages | sort:"position" %}
+      {% for my_page in sorted_pages %}
+        {% if my_page.title %}
+          <a class="db f5 fw4
+            br-pill br--top-ns br2-ns
+            bg-animate
+          {% if page.url == my_page.url %}
+            bg-white
+          {% else %}
+            bg-white-50
+          {% endif %}
+          hover-bg-white link
+          black-70 dib-ns
+          pv3 pv2-ns ph3
+          mv0-ns mh1-m mh2-l mv2
+          "
+          href="{{ my_page.url | relative_url }}">
+          {{ my_page.title | escape }}
+        </a>
         {% endif %}
-        hover-bg-white
-        link
-        black-70
-        dib-ns
-        pv3
-        pv2-ns
-        ph3
-        mv0-ns
-        mh1-m
-        mh2-l
-        mv2
-        "
-        href="{{ my_page.url | relative_url }}">
-        {{ my_page.title | escape }}
-      </a>
-      {% endif %}
       {% endfor %}
       <!-- <a class="f6 fw4 hover&#45;white no&#45;underline bg&#45;animate hover&#45;bg&#45;dark&#45;gray black&#45;70 db dib&#45;ns ml2 mv mv21 pv2 ph3 ba" href="/" > -->
         <!--   Make an Appointment -->

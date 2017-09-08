@@ -64,5 +64,6 @@ seo_meta_tags:
     name: twitter:card
     content: summary
 body: []
+position: 3
 ---
 

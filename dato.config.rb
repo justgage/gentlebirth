@@ -25,19 +25,33 @@ create_data_file(
 #   end
 # end
 
+
+homepage, *pages = dato.pages
+
+create_post "index.md" do
+  frontmatter(
+    :yaml,
+    title: homepage.title,
+    permalink: '/',
+    layout: 'page',
+    seo_meta_tags: homepage.seo_meta_tags,
+    body: homepage.content.to_hash,
+    position: homepage.position
+  )
+end
+
 # inside a "_posts" directory...
 directory '_pages' do
-  # ...iterate over the "Blog post" records...
-  dato.pages.each do |page|
-    # ...and create a markdown file for each article!
+  pages.each do |page|
     create_post "#{page.slug}.md" do
       frontmatter(
         :yaml,
         title: page.title,
-        permalink: "/#{page.slug}",
+        permalink: "/#{page.position == 1 ? "/" : page.slug}",
         layout: 'page',
         seo_meta_tags: page.seo_meta_tags,
-        body: page.content.to_hash
+        body: page.content.to_hash,
+        position: page.position
       )
     end
   end

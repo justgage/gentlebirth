@@ -1,6 +1,6 @@
 ---
 title: Meet the Midwife
-permalink: "/meet-the-midwife"
+permalink: "/"
 layout: page
 seo_meta_tags:
 - tag_name: title
@@ -157,5 +157,6 @@ body:
       description: Karla was professional but also very personal, going above and
         beyond the standard of care most women receive during pregnancy
       image: 
+position: 1
 ---
 
