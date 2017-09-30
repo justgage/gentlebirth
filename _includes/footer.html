@@ -1,30 +1,24 @@
-<footer class="pv4 ph3 ph5-ns tc serif black-80" id="contact-me" >
-  <h4 class="f2 mv3 fw2 black-60 ttu tracked baskerville">Make an Apointment</h4>
+<footer class="pb4 ph3 ph5-ns tc serif black-80" id="contact-me" >
   <div class="measure center">
     <a href="{{ "/meet-the-midwife/" | relative_url }}" class="link black-70 underline-hover" alt="meet the midwife">
       <img class="pa1 ba b--black-10 h4 w4 bg-white" src="{{ "/assets/karla-avatar-baby.jpg" | relative_url}}" alt="picture of Karla" />
       <h4 class="f3 mv3" >Meet with Karla</h4>
       <p class="i mv2">Karla Jo Bennett - Certified Nurse Midwife</p>
     </a>
-    <form action="https://formspree.io/justgage@gmail.com" method="POST" class="flex flex-column">
-      <label class="mt3 db tl" for="name">Name</label>
-      <input id="name" class="input-reset br3 ba b--light-gray mt2 pa2" placeholder="Mommy / Daddy" type="text" name="name">
-      <label class="mt3 db tl" for="_replyto">Email</label>
-      <input id="_replyto" class="input-reset br3 ba b--light-gray mt2 pa2" placeholder="babyBump@email.com" type="email" name="_replyto">
-      <label class="mt3 db tl" for="phone">Phone</label>
-      <input id="phone" class="input-reset br3 ba b--light-gray mt2 pa2" placeholder="(801) 123-4567" type="phone-number" name="phone">
-      <label class="mt3 db tl" for="description">Description</label>
-      <textarea id="description" class="input-reset br3 ba b--light-gray mt2 pa2 h4" placeholder="When can we meet? Any questions you have" type="phone-number" name="description"></textarea>
+    <form action="https://formspree.io/{{ site.email }}" method="POST" class="flex flex-column">
+      <input id="name" class="input-reset br3 ba b--purple mt2 pa2" placeholder="Name" type="text" name="name">
+      <input id="_replyto" class="input-reset br3 ba b--purple mt2 pa2" placeholder="Email" type="email" name="_replyto">
+      <textarea id="description" class="input-reset br3 ba b--purple mt2 pa2 h4" placeholder="When can we meet? Any questions you have" type="text" name="description"></textarea>
+      <input class="mt3 pa3 tracked ttu grow bw0 bg-purple-to-pink br-pill white" type="submit" value="Setup Apointment">
       <p class="mv3 pv0">She usually answers within 24 hours.</p>
-      <input class="pa3 tracked ttu grow bw0 bg-purple-to-pink br-pill white" type="submit" value="Setup Apointment">
     </form>
 
-    <p>Or feel free to call her at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="tel:801-712-6047">801-712-6047</a></p>
+    <p>Or feel free to call her at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="tel:{{site.phone}}">{{site.phone}}</a></p>
     {% if site.email %}
     <p>Or Email at <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="mailto:{{ site.email }}">{{ site.email }}</a> </p>
     {% endif %}
-    {% if site.facebook_username %} 
-    <p> Or message her on 
+    {% if site.facebook_username %}
+    <p> Or message her on
       <a class="pointer bb link dim black-80 dib mr3 mr4-ns mv2" href="https://facebook.com/{{site.facebook_username}}" title="facebook username">
         Facebook
       </a>

@@ -16,11 +16,12 @@ collections:
 headline: The Miracle of Birth
 subheadline: from the Comfort of Home
 email: "UtahGentleBirthMidwife@gmail.com"
+phone: "801-712-6047"
 description: At Gentle Birth and Women's Health we offer natural safe pregnancy and
   home birth services, and respectful holistic women's health care. We provide one-on-one
   attention from an experienced Certified Nurse Midwife, committed to protecting your
   birth and your health.
-baseurl: 
+baseurl:
 url: http://justgage.github.io/gentlebirth/
 permalink: pretty
 facebook_username: gentlebirthandwomenshealth
