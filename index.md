@@ -16,26 +16,29 @@ seo_meta_tags:
 - tag_name: meta
   attributes:
     name: description
-    content: Karla has been working in the birth community for many years, first as
-      an RN on a labor and delivery floor for 9 years, then as a Certified Nurse Midwife.
+    content: 'Karla has been working in the birth community for many years, first
+      as an RN on a labor and delivery floor for 9 years, then as a Certified Nurse
+      Midwife. '
 - tag_name: meta
   attributes:
     property: og:description
-    content: Karla has been working in the birth community for many years, first as
-      an RN on a labor and delivery floor for 9 years, then as a Certified Nurse Midwife.
+    content: 'Karla has been working in the birth community for many years, first
+      as an RN on a labor and delivery floor for 9 years, then as a Certified Nurse
+      Midwife. '
 - tag_name: meta
   attributes:
     name: twitter:description
-    content: Karla has been working in the birth community for many years, first as
-      an RN on a labor and delivery floor for 9 years, then as a Certified Nurse Midwife.
+    content: 'Karla has been working in the birth community for many years, first
+      as an RN on a labor and delivery floor for 9 years, then as a Certified Nurse
+      Midwife. '
 - tag_name: meta
   attributes:
     property: og:image
-    content: https://www.datocms-assets.com/2680/1500692284-mother-with-baby.jpg
+    content: https://www.datocms-assets.com/2680/1506739327-1501901020-karla-holding-baby.png
 - tag_name: meta
   attributes:
     name: twitter:image
-    content: https://www.datocms-assets.com/2680/1500692284-mother-with-baby.jpg
+    content: https://www.datocms-assets.com/2680/1506739327-1501901020-karla-holding-baby.png
 - tag_name: meta
   attributes:
     property: og:locale
@@ -51,7 +54,7 @@ seo_meta_tags:
 - tag_name: meta
   attributes:
     property: article:modified_time
-    content: '2017-08-05T21:02:42Z'
+    content: '2017-09-30T02:42:36Z'
 - tag_name: meta
   attributes:
     property: article:publisher
@@ -63,7 +66,7 @@ seo_meta_tags:
 body:
 - id: '85074'
   item_type: image
-  updated_at: 2017-08-05 03:37:13.439000000 Z
+  updated_at: 2017-09-20 14:08:11.803000000 Z
   image:
     format: jpg
     size: 44719
@@ -77,8 +80,9 @@ body:
   space_on_right: false
 - id: '85075'
   item_type: text
-  updated_at: 2017-08-05 04:47:47.541000000 Z
+  updated_at: 2017-09-13 04:14:50.189000000 Z
   text: |-
+    <h1>Hello, I'm Karla</h1>
     <p>I fell in love with the process of birth while giving birth to my own 6 children, and as labor support for my family and friends.</p>
     <p>I have been involved with the care of women and babies for close to 20 years, first as a doula, then as a Labor and Delivery nurse, and now as a Certified Nurse Midwife.</p>
     <p>In those 20 years I have attended more than 2,000 births, many as a L&amp;D nurse in the hospital, where I was always the go-to nurse for the women who wanted a natural, unmedicated birth.</p>
@@ -97,7 +101,7 @@ body:
     create births that are gentle and safe.</p>"
 - id: '85072'
   item_type: image
-  updated_at: 2017-08-05 04:33:45.405000000 Z
+  updated_at: 2017-09-30 02:04:43.853000000 Z
   image:
     format: png
     size: 100084
@@ -157,6 +161,11 @@ body:
       description: Karla was professional but also very personal, going above and
         beyond the standard of care most women receive during pregnancy
       image: 
+- id: '108330'
+  item_type: text
+  updated_at: 2017-09-30 02:42:35.039000000 Z
+  text: <p><iframe src="https://player.vimeo.com/video/184645984?autoplay=1&amp;title=0&amp;byline=0&amp;portrait=0"
+    width="640" height="360" frameborder="0" allowfullscreen=""></iframe></p>
 position: 1
 ---
 
