@@ -1,0 +1,20 @@
+---
+title: "Helpful Links"
+layout: default
+---
+
+<div class="measure-wide center black-80 flex flex-row-ns flex-column justify-center">
+   {% for listing in site.data.listings %}
+      <article class="mw5 bg-white br3 ma3 ba b--black-10">
+         <div class="tc">
+            <img src="https://static.wixstatic.com/media/b37f93_24a2d4effd31479fbf138403b4fa6805~mv2.jpg" class="br--top br3 w-100 image" title="">
+            <h3 class="f4 ma3"> {{ listing.title }} </h3>
+            <hr class="mw3 bb bw1 b--black-10">
+         </div>
+         <p class="pa3 lh-copy measure center f6 black-70">
+            {{ listing.blurb }}
+         </p>
+      </article>
+   {% endfor %}
+   <br class="cb" />
+</div>

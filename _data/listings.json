@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Doulas",
+    "image": null,
+    "blurb": "A doula can be a great support, giving physical and emotional comfort.",
+    "slug": "doulas",
+    "hideOnGentleBirth": false
+  },
+  {
+    "title": "Photographers & Videographers",
+    "image": {
+      "value": {
+        "path": "/2529/1507728256-photographer.jpg",
+        "width": 300,
+        "height": 168,
+        "format": "jpg",
+        "size": 6113,
+        "alt": null,
+        "title": null
+      },
+      "imgixHost": "https://www.datocms-assets.com"
+    },
+    "blurb": "A photographer or videographer can capture the beauty and power of your birth.",
+    "slug": "photographers-videographers",
+    "hideOnGentleBirth": false
+  }
+]

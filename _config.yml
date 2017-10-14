@@ -35,3 +35,4 @@ exclude:
 - readme.md
 - Gemfile
 - Gemfile.lock
+- node_modules/
