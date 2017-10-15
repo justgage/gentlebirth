@@ -1,7 +1,18 @@
 [
   {
     "title": "Doulas",
-    "image": null,
+    "image": {
+      "value": {
+        "path": "/2529/1508031821-dula-rub-back.jpg",
+        "width": 297,
+        "height": 170,
+        "format": "jpg",
+        "size": 5581,
+        "alt": null,
+        "title": null
+      },
+      "imgixHost": "https://www.datocms-assets.com"
+    },
     "blurb": "A doula can be a great support, giving physical and emotional comfort.",
     "slug": "doulas",
     "hideOnGentleBirth": false
