@@ -18,7 +18,7 @@
     "hideOnGentleBirth": false
   },
   {
-    "title": "Photographers & Videographers",
+    "title": "Photographers",
     "image": {
       "value": {
         "path": "/2529/1507728256-photographer.jpg",
@@ -32,7 +32,79 @@
       "imgixHost": "https://www.datocms-assets.com"
     },
     "blurb": "A photographer or videographer can capture the beauty and power of your birth.",
-    "slug": "photographers-videographers",
+    "slug": "photographers",
+    "hideOnGentleBirth": false
+  },
+  {
+    "title": "Chiropractors",
+    "image": {
+      "value": {
+        "path": "/2529/1510783951-2015-05-12-19-27-03-2.jpg",
+        "width": 4488,
+        "height": 2973,
+        "format": "jpg",
+        "size": 600899,
+        "alt": null,
+        "title": null
+      },
+      "imgixHost": "https://www.datocms-assets.com"
+    },
+    "blurb": "Help your spine be in alignment can help have smoother births",
+    "slug": "chiropractors",
+    "hideOnGentleBirth": false
+  },
+  {
+    "title": "Lactation Consultants",
+    "image": {
+      "value": {
+        "path": "/2529/1510784667-b37f93_500713f7bc3a429b900bd22f4125c531-mv2.jpg",
+        "width": 952,
+        "height": 468,
+        "format": "jpg",
+        "size": 158529,
+        "alt": null,
+        "title": null
+      },
+      "imgixHost": "https://www.datocms-assets.com"
+    },
+    "blurb": "A licensed breastfeeding counselor can help when breastfeeding isn't going as well as you want it to.",
+    "slug": "lactation-consultants",
+    "hideOnGentleBirth": false
+  },
+  {
+    "title": "Childbirth Education",
+    "image": {
+      "value": {
+        "path": "/2529/1510785200-b37f93_8b04b56ad2924296a8386a12259f6acf-mv2.jpg",
+        "width": 385,
+        "height": 195,
+        "format": "jpg",
+        "size": 23317,
+        "alt": null,
+        "title": null
+      },
+      "imgixHost": "https://www.datocms-assets.com"
+    },
+    "blurb": "Giving birth is hard work and takes some preparation. It's important to learn about the journey you embarking on and learn some techniques to help you navigate it.  A comprehensive prenatal covers many aspects of pregnancy, birth, and what to do with your newborn.",
+    "slug": "classes",
+    "hideOnGentleBirth": false
+  },
+  {
+    "title": "Meetups",
+    "image": {
+      "value": {
+        "path": "/2529/1510785892-priscilla-du-preez-234138.jpg",
+        "width": 5472,
+        "height": 3648,
+        "format": "jpg",
+        "size": 4112892,
+        "alt": null,
+        "title": null
+      },
+      "imgixHost": "https://www.datocms-assets.com"
+    },
+    "blurb": "Meetup with other Moms",
+    "slug": "meetup",
     "hideOnGentleBirth": false
   }
 ]

@@ -51,7 +51,7 @@ seo_meta_tags:
 - tag_name: meta
   attributes:
     property: article:modified_time
-    content: '2017-10-04T02:15:37Z'
+    content: '2017-11-23T16:05:26Z'
 - tag_name: meta
   attributes:
     property: article:publisher
@@ -63,7 +63,7 @@ seo_meta_tags:
 body:
 - id: '110228'
   item_type: image
-  updated_at: 2017-10-04 02:00:31.160000000 Z
+  updated_at: 2017-11-23 16:06:31.500000000 Z
   image:
     format: jpg
     size: 2860528
@@ -77,14 +77,14 @@ body:
   space_on_right: false
 - id: '97995'
   item_type: text
-  updated_at: 2017-10-04 01:57:56.593000000 Z
+  updated_at: 2017-11-15 22:56:09.925000000 Z
   text: |-
     <h3 class="font_7">PREGNANCY AND BIRTH</h3>
     <p class="font_7">I believe and support birth as a natural process which, in most cases, happens spontaneously and needs no intervention, only watchful care. Because my clients know that this is&nbsp;their&nbsp;baby and&nbsp;their&nbsp;pregnancy, I teach and counsel each one throughout their pregnancies so that they have enough information to feel comfortable making decisions regarding their care and the birth of their baby. &nbsp;</p>
-    <p class="font_7">I specialize in home birth, including water birth, but also have birth center options as well.&nbsp; I provide complete prenatal care, including lab work and ultrasound, conducting the visits in your home. I monitor the progress of your pregnancy and the growth of your baby with close and experienced observation.&nbsp; I join you in your home for the birth of your baby and stay after the delivery, making sure both mama and baby are healthy and stable. I have a large, comfortable birth tub, that you can rent if you prefer a water birth. My care also includes several postpartum visits, the first of which is in your home 1 day after your birth.</p>
+    <p class="font_7">I specialize in home birth, including water birth, but also have birth center options as well.&nbsp; I provide complete prenatal care, including lab work and ultrasound, conducting the visits in your home. I monitor the progress of your pregnancy and the growth of your baby with close and experienced observation.&nbsp; I join you in your home for the birth of your baby and stay after the delivery, making sure both mama and baby are healthy and stable. I have a large, comfortable birth tub, that you can rent if you prefer a water birth. My care also includes several postpartum visits, the first of which is in your home 1 day after your birth</p>
 - id: '110225'
   item_type: image
-  updated_at: 2017-10-04 02:01:03.560000000 Z
+  updated_at: 2017-11-23 16:06:31.497000000 Z
   image:
     format: jpg
     size: 57244
@@ -98,9 +98,8 @@ body:
   space_on_right: false
 - id: '110226'
   item_type: text
-  updated_at: 2017-10-04 02:04:39.658000000 Z
+  updated_at: 2017-10-04 02:35:28.986000000 Z
   text: |-
-    <h3 class="mt0">I SPECIALIZE IN:</h3>
     <ul class="font_7 color_20">
     <li>
     <p class="font_7"><span class="color_20">Normal Healthy Pregnancies</span></p>

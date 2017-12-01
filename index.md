@@ -54,7 +54,7 @@ seo_meta_tags:
 - tag_name: meta
   attributes:
     property: article:modified_time
-    content: '2017-09-30T02:42:36Z'
+    content: '2017-11-23T16:05:26Z'
 - tag_name: meta
   attributes:
     property: article:publisher
@@ -66,7 +66,7 @@ seo_meta_tags:
 body:
 - id: '85074'
   item_type: image
-  updated_at: 2017-09-20 14:08:11.803000000 Z
+  updated_at: 2017-11-23 16:05:38.503000000 Z
   image:
     format: jpg
     size: 44719
@@ -101,7 +101,7 @@ body:
     create births that are gentle and safe.</p>"
 - id: '85072'
   item_type: image
-  updated_at: 2017-09-30 02:04:43.853000000 Z
+  updated_at: 2017-11-23 16:05:38.499000000 Z
   image:
     format: png
     size: 100084

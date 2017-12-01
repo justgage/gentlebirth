@@ -4,10 +4,10 @@ layout: default
 position: 999999
 ---
 
-<div class="measure-wide center black-80 flex flex-row-ns flex-column justify-center">
+<div class="center black-80 cf pa2-ns">
    {% for listing in site.data.listings %}
-      <a class="link purple" href="/listing/{{ listing.slug }}">
-         <article class="grow mw5 bg-white br3 ma3 ba b--black-10">
+      <a class="link purple fl w-100 w-50-m  w-33-ns pa2-ns" href="/listing/{{ listing.slug }}">
+         <article class="grow bg-white br3 ma3 ba b--black-10 vh-50">
             <div class="tc">
                {% assign image = listing.image %}
                <img
@@ -20,8 +20,8 @@ position: 999999
                <h3 class="f4 ma3"> {{ listing.title }} </h3>
                <hr class="mw3 bb bw1 b--black-10">
             </div>
-            <p class="pa3 lh-copy measure center f6">
-               {{ listing.blurb }}
+            <p class="pa3 lh-copy center f6 overflow-hidden">
+               {{ listing.blurb | truncatewords: 25 }}
             </p>
          </article>
       </a>
